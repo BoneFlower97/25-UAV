@@ -1,0 +1,62 @@
+Added Pin To Net: NetName=IN1 Pin=SW?-2
+Added Pin To Net: NetName=IN1 Pin=SW?-2
+Added Pin To Net: NetName=IN1 Pin=SW?-2
+Added Pin To Net: NetName=IN1 Pin=SW?-2
+Added Pin To Net: NetName=IN1 Pin=SW?-3
+Added Pin To Net: NetName=IN1 Pin=SW?-3
+Added Pin To Net: NetName=IN1 Pin=SW?-3
+Added Pin To Net: NetName=IN1 Pin=SW?-3
+Added Net: Name=IN1
+Added Pin To Net: NetName=IN2 Pin=SW?-1
+Added Pin To Net: NetName=IN2 Pin=SW?-1
+Added Pin To Net: NetName=IN2 Pin=SW?-1
+Added Pin To Net: NetName=IN2 Pin=SW?-1
+Added Pin To Net: NetName=IN2 Pin=SW?-4
+Added Pin To Net: NetName=IN2 Pin=SW?-4
+Added Pin To Net: NetName=IN2 Pin=SW?-4
+Added Pin To Net: NetName=IN2 Pin=SW?-4
+Added Net: Name=IN2
+Added Pin To Net: NetName=KEY1 Pin=SW?-1
+Added Pin To Net: NetName=KEY1 Pin=SW?-2
+Added Pin To Net: NetName=KEY1 Pin=SW?-3
+Added Pin To Net: NetName=KEY1 Pin=SW?-4
+Added Net: Name=KEY1
+Added Pin To Net: NetName=KEY2 Pin=SW?-1
+Added Pin To Net: NetName=KEY2 Pin=SW?-2
+Added Pin To Net: NetName=KEY2 Pin=SW?-3
+Added Pin To Net: NetName=KEY2 Pin=SW?-4
+Added Net: Name=KEY2
+Added Pin To Net: NetName=KEY3 Pin=SW?-1
+Added Pin To Net: NetName=KEY3 Pin=SW?-2
+Added Pin To Net: NetName=KEY3 Pin=SW?-3
+Added Pin To Net: NetName=KEY3 Pin=SW?-4
+Added Net: Name=KEY3
+Added Pin To Net: NetName=KEY4 Pin=SW?-1
+Added Pin To Net: NetName=KEY4 Pin=SW?-2
+Added Pin To Net: NetName=KEY4 Pin=SW?-3
+Added Pin To Net: NetName=KEY4 Pin=SW?-4
+Added Net: Name=KEY4
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 4.7uF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component JP? HDR-1X4
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? NC
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5

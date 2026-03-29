@@ -1,0 +1,26 @@
+Change Component Footprint: Designator=E2 Old Footprint=CS 2.0*5*8 - C New Footprint=CM B(4*5.4)
+Change Component Footprint: Designator=E1 Old Footprint=CS 2.0*5*8 - C New Footprint=CM D(6.3*7.7)
+Change Component Comment : Designator=E2 Old Comment=47uF/15V New Comment=47uF/10V
+Change Component Description : Designator=E2 Old Description=直插固态电容 New Description=47uF ±20% 10V                           C48970978
+Change Component Description : Designator=E1 Old Description=直插固态电容 New Description=JVJ50V47M6x8                        47uF ±20% 50V                            C46550421
+Added Component: Designator=L1(CD42)
+Add component (AddParameter): Name = "BOM名称"; Value = "功率电感"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Added Component: Designator=V1(SOT-223)
+Add component (AddParameter): Name = "BOM名称"; Value = "稳压芯片"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetL1_1 Pin=L1-1
+Added Pin To Net: NetName=5V Pin=L1-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Added Pin To Net: NetName=GND Pin=V1-1
+Added Pin To Net: NetName=3V3 Pin=V1-2
+Added Pin To Net: NetName=3V3 Pin=V1-2
+Added Pin To Net: NetName=5V Pin=V1-3

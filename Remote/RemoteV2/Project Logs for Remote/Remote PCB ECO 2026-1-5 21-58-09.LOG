@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetR19_1 Pin=SW7-4
+Removed Pin From Net: NetName=3v3 Pin=V1-
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Added Pin To Net: NetName=NetR19_1 Pin=SW7-1
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0

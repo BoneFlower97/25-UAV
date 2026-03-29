@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=SPI1_CS Pin=R32-1
+Removed Pin From Net: NetName=RESET Pin=R35-1
+Added Pin To Net: NetName=SPI1_CS Pin=R35-1
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0

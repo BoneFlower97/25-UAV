@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetQ1_5 Pin=电调1-1
+Removed Pin From Net: NetName=GND Pin=电调1-2
+Removed Member From Class: ClassName=POWER Member=电调1
+Added Component: Designator=J8(HDR2.54-LI-1P)
+Added Component: Designator=J9(HDR2.54-LI-1P)
+Added Pin To Net: NetName=NetQ1_5 Pin=J8-1
+Added Pin To Net: NetName=GND Pin=J9-1
+Change Net Name : Old Net Name=NetQ1_5 New Net Name=NetJ8_1
+Added Member To Class: ClassName=POWER Member=Component J8 CON1
+Added Member To Class: ClassName=POWER Member=Component J9 CON1

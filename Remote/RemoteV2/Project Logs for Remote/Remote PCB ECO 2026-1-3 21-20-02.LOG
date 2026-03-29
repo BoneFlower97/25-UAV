@@ -1,0 +1,58 @@
+Removed Member From Class: ClassName=INPUT Member=J17
+Removed Member From Class: ClassName=MCU Member=R12
+Removed Member From Class: ClassName=MCU Member=R13
+Removed Member From Class: ClassName=MCU Member=R21
+Removed Member From Class: ClassName=MCU Member=R25
+Removed Member From Class: ClassName=INPUT Member=R29
+Removed Member From Class: ClassName=MCU Member=R29
+Removed Member From Class: ClassName=INPUT Member=R32
+Removed Member From Class: ClassName=INPUT Member=R38
+Removed Member From Class: ClassName=COMMUNICATION Member=R41
+Removed Member From Class: ClassName=INPUT Member=R41
+Removed Member From Class: ClassName=COMMUNICATION Member=R42
+Removed Member From Class: ClassName=COMMUNICATION Member=R44
+Removed Member From Class: ClassName=COMMUNICATION Member=R45
+Added Component: Designator=b1(BEEP 5x9x5.5)
+Added Pin To Net: NetName=3v3 Pin=b1-1
+Added Pin To Net: NetName=Netb1_2 Pin=b1-2
+Added Member To Class: ClassName=INPUT Member=Component b1 BELL
+Added Member To Class: ClassName=INPUT Member=Component J2 TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J3 TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J4 TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J5 TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J7 CON1
+Added Member To Class: ClassName=INPUT Member=Component J9 CON1
+Added Member To Class: ClassName=INPUT Member=Component J11 CON1
+Added Member To Class: ClassName=INPUT Member=Component J13 CON1
+Added Member To Class: ClassName=INPUT Member=Component J14 CON1
+Added Member To Class: ClassName=INPUT Member=Component J15 CON1
+Added Member To Class: ClassName=INPUT Member=Component J16 CON1
+Added Member To Class: ClassName=MCU Member=Component R4 0R
+Added Member To Class: ClassName=MCU Member=Component R5 0R
+Added Member To Class: ClassName=MCU Member=Component R6 0R
+Added Member To Class: ClassName=MCU Member=Component R7 NC
+Added Member To Class: ClassName=MCU Member=Component R8 0R
+Added Member To Class: ClassName=MCU Member=Component R9 0R
+Added Member To Class: ClassName=MCU Member=Component R10 10K
+Added Member To Class: ClassName=MCU Member=Component R11 10K
+Added Member To Class: ClassName=INPUT Member=Component R14
+Added Member To Class: ClassName=INPUT Member=Component R15 10K
+Added Member To Class: ClassName=INPUT Member=Component R16 10K
+Added Member To Class: ClassName=INPUT Member=Component R17 10K
+Added Member To Class: ClassName=INPUT Member=Component R18 10K
+Added Member To Class: ClassName=INPUT Member=Component R19 10K
+Added Member To Class: ClassName=INPUT Member=Component R20
+Added Member To Class: ClassName=INPUT Member=Component R23 10K
+Added Member To Class: ClassName=INPUT Member=Component R24
+Added Member To Class: ClassName=INPUT Member=Component R26
+Added Member To Class: ClassName=INPUT Member=Component R27
+Added Member To Class: ClassName=INPUT Member=Component R28 1K
+Added Member To Class: ClassName=COMMUNICATION Member=Component R30 600¦¸ 100Mhz
+Added Member To Class: ClassName=COMMUNICATION Member=Component R31 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R33 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R34 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R35 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R36 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R37 0R
+Added Member To Class: ClassName=POWER Member=Component R39 1.8k
+Added Member To Class: ClassName=POWER Member=Component R40 0R

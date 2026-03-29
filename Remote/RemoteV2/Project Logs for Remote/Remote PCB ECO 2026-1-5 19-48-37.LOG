@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BEEP Pin=U1-38
+Removed Pin From Net: NetName=STATE_LED Pin=U1-39
+Added Pin To Net: NetName=STATE_LED Pin=U1-38
+Added Pin To Net: NetName=BEEP Pin=U1-39

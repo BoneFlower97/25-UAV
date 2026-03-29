@@ -1,0 +1,74 @@
+Removed Pin From Net: NetName=SW1 Pin=DR1-1
+Removed Pin From Net: NetName=GND Pin=DR1-2
+Removed Pin From Net: NetName=12V Pin=DR2-1
+Removed Pin From Net: NetName=GND Pin=DR2-2
+Removed Pin From Net: NetName=DN Pin=R22-1
+Removed Pin From Net: NetName=DP Pin=R24-1
+Removed Member From Class: ClassName=POWER Member=DR1
+Removed Member From Class: ClassName=POWER Member=DR2
+Change Component Footprint: Designator=D1 Old Footprint=DO-27 New Footprint=SOD-323
+Change Component Comment : Designator=R45 Old Comment=1K New Comment=10K
+Change Component Comment : Designator=D1 Old Comment=SR540 New Comment=B5819WS
+Change Component Designator: OldDesignator=DZ1 NewDesignator=DZ3
+Added Component: Designator=D2(SOT-23)
+Add component (AddParameter): Name = "Contributor"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "WILLSEMI(韦尔)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "ESD5302F-3/TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "ESD5302F-3/TR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C239643"; VariantName = "[No Variations]"
+Added Component: Designator=DZ1(SOD-323)
+Add component (AddParameter): Name = "BOM名称"; Value = "12V/0.5W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DZ2(SMC)
+Add component (AddParameter): Name = "BOM名称"; Value = "12V/0.5W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DZ4(SOD-323)
+Add component (AddParameter): Name = "BOM名称"; Value = "12V/0.5W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=U5(USB-C-SMD_G-SWITCH_GT-USB-7010ASV)
+Add component (AddParameter): Name = "Contributor"; Value = "lcsc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "G-Switch(品赞)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "GT-USB-7010ASV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "GT-USB-7010ASV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C2988369"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=DP Pin=D2-1
+Added Pin To Net: NetName=DN Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D2-3
+Added Pin To Net: NetName=GND Pin=DZ1-1
+Added Pin To Net: NetName=SW1 Pin=DZ1-2
+Added Pin To Net: NetName=GND Pin=DZ2-1
+Added Pin To Net: NetName=12V Pin=DZ2-2
+Added Pin To Net: NetName=GND Pin=DZ4-1
+Added Pin To Net: NetName=NetD1_1 Pin=DZ4-2
+Add Pin To Net: Unknown Pin: Pin J5-1
+Add Pin To Net: Unknown Pin: Pin J5-2
+Add Pin To Net: Unknown Pin: Pin J5-3
+Add Pin To Net: Unknown Pin: Pin J5-4
+Added Pin To Net: NetName=DP Pin=R22-1
+Added Pin To Net: NetName=DN Pin=R24-1
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=GND Pin=U5-2
+Added Pin To Net: NetName=GND Pin=U5-3
+Added Pin To Net: NetName=GND Pin=U5-4
+Added Pin To Net: NetName=GND Pin=U5-A1B12
+Added Pin To Net: NetName=NetD1_1 Pin=U5-A4B9
+Added Pin To Net: NetName=DN Pin=U5-A6
+Added Pin To Net: NetName=DP Pin=U5-A7
+Added Pin To Net: NetName=GND Pin=U5-B1A12
+Added Pin To Net: NetName=NetD1_1 Pin=U5-B4A9
+Added Pin To Net: NetName=DN Pin=U5-B6
+Added Member To Class: ClassName=COMMUNICATION Member=Component D2 ESD5302F-3/TR
+Added Member To Class: ClassName=POWER Member=Component DZ2 SMDJ15A
+Added Member To Class: ClassName=POWER Member=Component DZ3 B5819WS
+Added Member To Class: ClassName=COMMUNICATION Member=Component DZ4 SD05
+Add Class Member: Failed to add class member : Component J5 CON4
+Added Member To Class: ClassName=COMMUNICATION Member=Component U5 GT-USB-7010ASV

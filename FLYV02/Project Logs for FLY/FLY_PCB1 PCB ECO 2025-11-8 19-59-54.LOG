@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=ICM_CS Pin=R26-1
+Removed Pin From Net: NetName=SPI1_SCK Pin=R27-1
+Removed Pin From Net: NetName=SPI1_MISO Pin=R28-1
+Removed Pin From Net: NetName=SPI1_MOSI Pin=R29-1
+Removed Pin From Net: NetName=BMP_CS Pin=R31-1
+Removed Pin From Net: NetName=SPI2_SCK Pin=R33-1
+Removed Pin From Net: NetName=SPI2_MISO Pin=R34-1
+Removed Pin From Net: NetName=SPI2_MOSI Pin=R35-1
+Removed Pin From Net: NetName=ICM_CS Pin=U8-20
+Removed Pin From Net: NetName=SPI1_SCK Pin=U8-21
+Removed Pin From Net: NetName=SPI1_MISO Pin=U8-22
+Removed Pin From Net: NetName=SPI1_MOSI Pin=U8-23
+Removed Pin From Net: NetName=BMP_CS Pin=U8-30
+Removed Pin From Net: NetName=SPI2_SCK Pin=U8-34
+Removed Pin From Net: NetName=SPI2_MISO Pin=U8-35
+Removed Pin From Net: NetName=SPI2_MOSI Pin=U8-36
+Removed Member From Class: ClassName=MCU Member=R30
+Removed Member From Class: ClassName=MCU Member=R31
+Add Component: Footprint Not Found SMA-KE-LI
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Add Pin To Net: Unknown Pin: Pin J5-1
+Add Pin To Net: Unknown Pin: Pin J5-2
+Add Pin To Net: Unknown Pin: Pin J5-3
+Add Pin To Net: Unknown Pin: Pin J5-4
+Add Pin To Net: Unknown Pin: Pin JP?-1
+Add Pin To Net: Unknown Pin: Pin JP?-2
+Add Pin To Net: Unknown Pin: Pin JP?-3
+Added Pin To Net: NetName=ICM_CS Pin=R26-2
+Added Pin To Net: NetName=SPI1_SCK Pin=R27-2
+Added Pin To Net: NetName=SPI1_MISO Pin=R28-2
+Added Pin To Net: NetName=SPI1_MOSI Pin=R29-2
+Added Pin To Net: NetName=BMP_CS Pin=R32-2
+Added Pin To Net: NetName=SPI2_SCK Pin=R33-2
+Added Pin To Net: NetName=SPI2_MISO Pin=R34-2
+Added Pin To Net: NetName=SPI2_MOSI Pin=R35-2
+Added Pin To Net: NetName=BMP_CS Pin=R?-1
+Added Pin To Net: NetName=ICM_CS Pin=R?-1
+Added Pin To Net: NetName=3V3_MCU Pin=R?-2
+Added Pin To Net: NetName=3V3_MCU Pin=R?-2
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-A1B12
+Add Pin To Net: Unknown Pin: Pin U6-A4B9
+Add Pin To Net: Unknown Pin: Pin U6-A6
+Add Pin To Net: Unknown Pin: Pin U6-A7
+Add Pin To Net: Unknown Pin: Pin U6-B1A12
+Add Pin To Net: Unknown Pin: Pin U6-B4A9
+Add Pin To Net: Unknown Pin: Pin U6-B6
+Added Pin To Net: NetName=12V_ADC Pin=U8-15
+Added Pin To Net: NetName=TX2 Pin=U8-16
+Added Pin To Net: NetName=RX2 Pin=U8-17
+Added Pin To Net: NetName=TX1 Pin=U8-42
+Added Pin To Net: NetName=RX1 Pin=U8-43
+Change Net Name : Old Net Name=LoRa_CS New Net Name=NetR32_1
+Added Pin To Net: NetName=NetR26_1 Pin=R26-1
+Added Pin To Net: NetName=NetR26_1 Pin=U8-20
+Added Net: Name=NetR26_1
+Added Pin To Net: NetName=NetR27_1 Pin=R27-1
+Added Pin To Net: NetName=NetR27_1 Pin=U8-21
+Added Net: Name=NetR27_1
+Added Pin To Net: NetName=NetR28_1 Pin=R28-1
+Added Pin To Net: NetName=NetR28_1 Pin=U8-22
+Added Net: Name=NetR28_1
+Added Pin To Net: NetName=NetR29_1 Pin=R29-1
+Added Pin To Net: NetName=NetR29_1 Pin=U8-23
+Added Net: Name=NetR29_1
+Added Pin To Net: NetName=NetR33_1 Pin=R33-1
+Added Pin To Net: NetName=NetR33_1 Pin=U8-34
+Added Net: Name=NetR33_1
+Added Pin To Net: NetName=NetR34_1 Pin=R34-1
+Added Pin To Net: NetName=NetR34_1 Pin=U8-35
+Added Net: Name=NetR34_1
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_1 Pin=U8-36
+Added Net: Name=NetR35_1
+Add Net: Net with name "NetR?_2" already exists
+Added Member To Class: ClassName=COMMUNICATION Member=Component C? 0.1uF
+Added Member To Class: ClassName=COMMUNICATION Member=Component C? 100uF
+Add Class Member: Failed to add class member : Component J5 CON4
+Add Class Member: Failed to add class member : Component JP? SMA WIFI 天线接口
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Add Class Member: Failed to add class member : Component U6 GT-USB-7010ASV

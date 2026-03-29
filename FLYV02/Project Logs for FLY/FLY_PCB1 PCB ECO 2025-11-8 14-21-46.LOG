@@ -1,0 +1,14 @@
+Added Component: Designator=U1(SOT23-6)
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "MICRONE(ÄÏ¾©Î¢ÃË)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "ME3116AM6G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "ME3116"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C97643"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC2_2 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=NetC3_1 Pin=U1-3
+Added Pin To Net: NetName=NetR13_2 Pin=U1-4
+Added Pin To Net: NetName=12V Pin=U1-5
+Added Pin To Net: NetName=NetL1_1 Pin=U1-6

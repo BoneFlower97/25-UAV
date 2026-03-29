@@ -1,0 +1,307 @@
+Removed Pin From Net: NetName=3V3_MCU Pin=R1-1
+Removed Pin From Net: NetName=12V_COM_IO Pin=R6-1
+Removed Pin From Net: NetName=NetQ?_1 Pin=R9-1
+Removed Pin From Net: NetName=3V3_MCU Pin=R10-1
+Removed Pin From Net: NetName=3V3_MCU Pin=R12-1
+Removed Pin From Net: NetName=NetR22_1 Pin=R22-1
+Removed Pin From Net: NetName=NetQ?_1 Pin=电调-1
+Removed Member From Class: ClassName=POWER Member=R15
+Removed Member From Class: ClassName=POWER Member=R16
+Change Component Footprint: Designator=C1 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C2 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C3 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C4 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C5 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C6 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=C7 Old Footprint=C 0603_M New Footprint=C 0805_L
+Change Component Footprint: Designator=R2 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R3 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R4 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R5 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R6 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R7 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R8 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R9 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R11 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R13 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R15 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Footprint: Designator=R16 Old Footprint=R 0603_L New Footprint=R 0805_L
+Change Component Comment : Designator=R16 Old Comment= New Comment=1k
+Change Component Comment : Designator=R15 Old Comment= New Comment=1M
+Change Component Comment : Designator=R14 Old Comment= New Comment=5.1k
+Change Component Comment : Designator=R6 Old Comment=10K New Comment=1K
+Change Component Comment : Designator=R4 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=R11 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=R13 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=C5 Old Comment=104 New Comment=10uF
+Change Component Comment : Designator=C7 Old Comment=104 New Comment=10uF
+Change Component Comment : Designator=C4 Old Comment=104 New Comment=22uF
+Change Component Comment : Designator=C6 Old Comment=104 New Comment=22uF
+Change Component Comment : Designator=C3 Old Comment=104 New Comment=100pF
+Change Component Designator: OldDesignator=C5 NewDesignator=C7
+Change Component Designator: OldDesignator=C6 NewDesignator=C5
+Change Component Designator: OldDesignator=C7 NewDesignator=C6
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Change Component Designator: OldDesignator=J? NewDesignator=J2
+Change Component Designator: OldDesignator=J? NewDesignator=J3
+Change Component Designator: OldDesignator=J? NewDesignator=J4
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=Q? NewDesignator=Q4
+Change Component Designator: OldDesignator=R2 NewDesignator=R1
+Change Component Designator: OldDesignator=R3 NewDesignator=R2
+Change Component Designator: OldDesignator=R4 NewDesignator=R3
+Change Component Designator: OldDesignator=R5 NewDesignator=R4
+Change Component Designator: OldDesignator=R6 NewDesignator=R9
+Change Component Designator: OldDesignator=R7 NewDesignator=R6
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R7
+Change Component Designator: OldDesignator=R11 NewDesignator=R8
+Change Component Designator: OldDesignator=R13 NewDesignator=R11
+Change Component Designator: OldDesignator=R14 NewDesignator=R12
+Change Component Designator: OldDesignator=R15 NewDesignator=R13
+Change Component Designator: OldDesignator=R16 NewDesignator=R14
+Change Component Designator: OldDesignator=R17 NewDesignator=R15
+Change Component Designator: OldDesignator=R18 NewDesignator=R16
+Change Component Designator: OldDesignator=R19 NewDesignator=R17
+Change Component Designator: OldDesignator=R20 NewDesignator=R18
+Change Component Designator: OldDesignator=R21 NewDesignator=R19
+Change Component Designator: OldDesignator=R22 NewDesignator=R20
+Change Component Designator: OldDesignator=R23 NewDesignator=R21
+Change Component Designator: OldDesignator=R24 NewDesignator=R22
+Change Component Designator: OldDesignator=R25 NewDesignator=R23
+Change Component Designator: OldDesignator=R26 NewDesignator=R24
+Change Component Designator: OldDesignator=R27 NewDesignator=R25
+Change Component Designator: OldDesignator=R28 NewDesignator=R26
+Change Component Designator: OldDesignator=R29 NewDesignator=R27
+Change Component Designator: OldDesignator=R30 NewDesignator=R28
+Change Component Designator: OldDesignator=U5 NewDesignator=U4
+Change Component Designator: OldDesignator=U8 NewDesignator=U7
+Change Component Designator: OldDesignator=U9 NewDesignator=U8
+Change Component Designator: OldDesignator=电源 NewDesignator=电源1
+Change Component Designator: OldDesignator=电调 NewDesignator=电调1
+Added Component: Designator=D1(DO-27)
+Add component (AddParameter): Name = "BOM名称"; Value = "整流二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "属性"; Value = "40V  5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DR1(SOD-323)
+Add component (AddParameter): Name = "BOM名称"; Value = "瞬态电压抑制二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DR2(DO-15)
+Add component (AddParameter): Name = "BOM名称"; Value = "瞬态电压抑制二极管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=DZ1(DO-35)
+Add component (AddParameter): Name = "BOM名称"; Value = "30V/0.5W稳压管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=E1(CS 2.0*5*8 - C)
+Add component (AddParameter): Name = "BOM名称"; Value = "直插固态电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=E2(CS 2.0*5*8 - C)
+Add component (AddParameter): Name = "BOM名称"; Value = "直插固态电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SMA-KE-LI
+Add Component: Footprint Not Found CD31
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found TO220A
+Added Component: Designator=R5(R 0805_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Add Component: Footprint Not Found LGA-16_L3.0-W3.0-P0.50-BL
+Add Component: Footprint Not Found LGA-8_L2.5-W2.0-P0.65_AMP6127
+Add Component: Footprint Not Found SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Add Component: Footprint Not Found SOT223_L
+Add Component: Footprint Not Found OSC 1612-4P
+Add Component: Footprint Not Found OSC 1612-4P
+Added Pin To Net: NetName=NetQ?_1 Pin=C6-2
+Added Pin To Net: NetName=3V3_MCU Pin=C7-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=5V Pin=D1-2
+Added Pin To Net: NetName=3V3_MCU Pin=DR1-2
+Added Pin To Net: NetName=NetQ?_1 Pin=DR2-1
+Added Pin To Net: NetName=3V3_MCU Pin=DR2-2
+Added Pin To Net: NetName=3V3_MCU Pin=DZ1-1
+Added Pin To Net: NetName=NetC2_1 Pin=DZ1-2
+Added Pin To Net: NetName=NetQ?_1 Pin=E1-1
+Added Pin To Net: NetName=3V3_MCU Pin=E1-2
+Added Pin To Net: NetName=5V Pin=E2-1
+Added Pin To Net: NetName=3V3_MCU Pin=E2-2
+Add Pin To Net: Unknown Pin: Pin J5-1
+Add Pin To Net: Unknown Pin: Pin J5-2
+Add Pin To Net: Unknown Pin: Pin J5-3
+Add Pin To Net: Unknown Pin: Pin J5-4
+Add Pin To Net: Unknown Pin: Pin J6-1
+Add Pin To Net: Unknown Pin: Pin J6-4
+Add Pin To Net: Unknown Pin: Pin JP1-1
+Add Pin To Net: Unknown Pin: Pin JP1-2
+Add Pin To Net: Unknown Pin: Pin JP1-3
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin L5-1
+Add Pin To Net: Unknown Pin: Pin L5-2
+Add Pin To Net: Unknown Pin: Pin L6-1
+Add Pin To Net: Unknown Pin: Pin L6-2
+Add Pin To Net: Unknown Pin: Pin L7-1
+Add Pin To Net: Unknown Pin: Pin L7-2
+Add Pin To Net: Unknown Pin: Pin LED1-1
+Add Pin To Net: Unknown Pin: Pin LED1-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Add Pin To Net: Unknown Pin: Pin LED3-1
+Add Pin To Net: Unknown Pin: Pin LED3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Added Pin To Net: NetName=NetQ?_1 Pin=R1-2
+Added Pin To Net: NetName=NetQ?_1 Pin=R3-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R4-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R5-2
+Added Pin To Net: NetName=NetQ?_1 Pin=R8-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R11-1
+Added Pin To Net: NetName=NetQ?_1 Pin=R13-1
+Added Pin To Net: NetName=NetR22_1 Pin=R22-1
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-9
+Add Pin To Net: Unknown Pin: Pin U2-10
+Add Pin To Net: Unknown Pin: Pin U2-11
+Add Pin To Net: Unknown Pin: Pin U2-12
+Add Pin To Net: Unknown Pin: Pin U2-13
+Add Pin To Net: Unknown Pin: Pin U2-14
+Add Pin To Net: Unknown Pin: Pin U2-15
+Add Pin To Net: Unknown Pin: Pin U2-16
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U5-5
+Add Pin To Net: Unknown Pin: Pin U5-6
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-A1B12
+Add Pin To Net: Unknown Pin: Pin U6-A4B9
+Add Pin To Net: Unknown Pin: Pin U6-A6
+Add Pin To Net: Unknown Pin: Pin U6-B1A12
+Add Pin To Net: Unknown Pin: Pin U6-B4A9
+Add Pin To Net: Unknown Pin: Pin U6-B6
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Add Pin To Net: Unknown Pin: Pin V1-3
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Pin To Net: Unknown Pin: Pin X1-4
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Pin To Net: Unknown Pin: Pin X2-3
+Add Pin To Net: Unknown Pin: Pin X2-4
+Added Pin To Net: NetName=NetQ?_1 Pin=电源1-1
+Change Net Name : Old Net Name=NetQ?_1 New Net Name=12V_COM
+Change Net Name : Old Net Name=NetR22_2 New Net Name=NetR20_2
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetR21_1
+Change Net Name : Old Net Name=NetR24_2 New Net Name=NetR22_2
+Change Net Name : Old Net Name=NetR25_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR26_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetR28_1 New Net Name=NetR26_1
+Change Net Name : Old Net Name=NetR30_1 New Net Name=NetR28_1
+Added Pin To Net: NetName=NetJ6_2 Pin=U8-46
+Added Net: Name=NetJ6_2
+Added Pin To Net: NetName=NetJ6_3 Pin=U8-49
+Added Net: Name=NetJ6_3
+Added Pin To Net: NetName=NetQ1_4 Pin=Q1-4
+Added Pin To Net: NetName=NetQ1_4 Pin=R3-2
+Added Net: Name=NetQ1_4
+Added Pin To Net: NetName=NetQ1_5 Pin=R7-1
+Added Pin To Net: NetName=NetQ1_5 Pin=电调1-1
+Added Net: Name=NetQ1_5
+Added Pin To Net: NetName=NetQ2_4 Pin=Q2-4
+Added Pin To Net: NetName=NetQ2_4 Pin=R8-2
+Added Net: Name=NetQ2_4
+Added Pin To Net: NetName=NetQ3_1 Pin=R9-2
+Added Pin To Net: NetName=NetQ3_1 Pin=R10-2
+Added Net: Name=NetQ3_1
+Added Pin To Net: NetName=NetQ3_2 Pin=R5-1
+Added Net: Name=NetQ3_2
+Added Pin To Net: NetName=NetQ4_4 Pin=Q4-4
+Added Pin To Net: NetName=NetQ4_4 Pin=R11-2
+Added Net: Name=NetQ4_4
+Added Pin To Net: NetName=NetR13_2 Pin=R13-2
+Added Net: Name=NetR13_2
+Added Pin To Net: NetName=NetR20_1 Pin=R20-1
+Added Net: Name=NetR20_1
+Added Pin To Net: NetName=NetU4_3 Pin=U4-3
+Added Net: Name=NetU4_3
+Added Pin To Net: NetName=NetU4_4 Pin=U4-4
+Added Net: Name=NetU4_4
+Added Pin To Net: NetName=SW1 Pin=DR1-1
+Added Pin To Net: NetName=SW1 Pin=R9-1
+Added Net: Name=SW1
+Added Member To Class: ClassName=COMMUNICATION Member=Component D1 SR540
+Added Member To Class: ClassName=POWER Member=Component DR1 SD05
+Added Member To Class: ClassName=POWER Member=Component DR2 1.5KE18CA
+Added Member To Class: ClassName=POWER Member=Component DZ1 1N5256
+Added Member To Class: ClassName=POWER Member=Component E1 47uF/30V
+Added Member To Class: ClassName=POWER Member=Component E2 47uF/15V
+Added Member To Class: ClassName=POWER Member=Component J1 CON1
+Added Member To Class: ClassName=POWER Member=Component J2 CON1
+Added Member To Class: ClassName=POWER Member=Component J4 CON1
+Add Class Member: Failed to add class member : Component J5 CON4
+Add Class Member: Failed to add class member : Component J6 CON4
+Add Class Member: Failed to add class member : Component JP1 天线接口
+Add Class Member: Failed to add class member : Component L1 6.8uH
+Add Class Member: Failed to add class member : Component L2
+Add Class Member: Failed to add class member : Component L3
+Add Class Member: Failed to add class member : Component L4
+Add Class Member: Failed to add class member : Component L5
+Add Class Member: Failed to add class member : Component L6
+Add Class Member: Failed to add class member : Component L7 10uH
+Add Class Member: Failed to add class member : Component LED1 红色
+Add Class Member: Failed to add class member : Component LED2 白色
+Add Class Member: Failed to add class member : Component LED3 绿色
+Added Member To Class: ClassName=POWER Member=Component Q1 AON6407-MS
+Add Class Member: Failed to add class member : Component Q3 2N7002
+Added Member To Class: ClassName=POWER Member=Component Q4 AON6407-MS
+Add Class Member: Failed to add class member : Component U1 ME3116
+Add Class Member: Failed to add class member : Component U2 ICM-20602
+Add Class Member: Failed to add class member : Component U3 BMP280
+Add Class Member: Failed to add class member : Component U5 PE4259-63
+Add Class Member: Failed to add class member : Component U6 GT-USB-7010ASV
+Add Class Member: Failed to add class member : Component V1 AMS1117-3V3
+Add Class Member: Failed to add class member : Component X1 32M
+Add Class Member: Failed to add class member : Component X2 8M

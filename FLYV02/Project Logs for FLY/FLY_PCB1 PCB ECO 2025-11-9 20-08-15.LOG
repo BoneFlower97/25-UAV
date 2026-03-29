@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=3V3_MCU Pin=J6-1
+Removed Member From Class: ClassName=MCU Member=J?
+Change Component Designator: OldDesignator=C18 NewDesignator=C19
+Change Component Designator: OldDesignator=C19 NewDesignator=C20
+Change Component Designator: OldDesignator=C20 NewDesignator=C21
+Change Component Designator: OldDesignator=C21 NewDesignator=C22
+Change Component Designator: OldDesignator=C22 NewDesignator=C23
+Change Component Designator: OldDesignator=C23 NewDesignator=C24
+Change Component Designator: OldDesignator=C24 NewDesignator=C25
+Change Component Designator: OldDesignator=C25 NewDesignator=C26
+Change Component Designator: OldDesignator=C26 NewDesignator=C27
+Change Component Designator: OldDesignator=C27 NewDesignator=C28
+Change Component Designator: OldDesignator=C28 NewDesignator=C29
+Change Component Designator: OldDesignator=C29 NewDesignator=C30
+Change Component Designator: OldDesignator=J6 NewDesignator=J7
+Change Component Designator: OldDesignator=J? NewDesignator=J6
+Added Component: Designator=C18(C 0603_M)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C18-2
+Change Net Name : Old Net Name=NetC25_2 New Net Name=NetC26_2
+Change Net Name : Old Net Name=NetC26_2 New Net Name=NetC27_2
+Change Net Name : Old Net Name=NetC27_2 New Net Name=NetC28_2
+Change Net Name : Old Net Name=NetC28_2 New Net Name=NetC29_2
+Change Net Name : Old Net Name=NetC29_2 New Net Name=NetC30_2
+Change Net Name : Old Net Name=NetJ6_2 New Net Name=NetJ7_2
+Change Net Name : Old Net Name=NetJ6_3 New Net Name=NetJ7_3
+Added Pin To Net: NetName=NetC18_1 Pin=C18-1
+Added Pin To Net: NetName=NetC18_1 Pin=R25-1
+Added Pin To Net: NetName=NetC18_1 Pin=U6-5
+Added Net: Name=NetC18_1
+Added Member To Class: ClassName=COMMUNICATION Member=Component C18 100nF
+Added Member To Class: ClassName=MCU Member=Component J7 CON4

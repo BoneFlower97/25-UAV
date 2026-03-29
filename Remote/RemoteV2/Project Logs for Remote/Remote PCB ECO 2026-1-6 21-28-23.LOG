@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=3V3_Lora Pin=C27-1
+Removed Pin From Net: NetName=3V3_Lora Pin=R29-2
+Change Footprint: Footprint Not Found Model Name
+Added Pin To Net: NetName=3v3 Pin=C27-1
+Added Pin To Net: NetName=3v3 Pin=R29-2
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Add Pin To Net: Unknown Pin: Pin SW9-0

@@ -1,0 +1,279 @@
+Change Component Footprint: Designator=C42 Old Footprint=C 0805_L New Footprint=C 0603_L
+Change Component Footprint: Designator=C1 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C2 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C3 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C4 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C5 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C6 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C7 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C8 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C9 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C10 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C11 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C12 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C13 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C14 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C15 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C16 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C17 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C18 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C19 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C20 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C21 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C22 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C23 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C24 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C25 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C26 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C27 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C28 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C29 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C30 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C31 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C32 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C33 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C34 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C35 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C36 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C37 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C38 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C39 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C40 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=C41 Old Footprint=C 0805_L New Footprint=C 0603_M
+Change Component Footprint: Designator=R1 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R2 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R3 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R4 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R5 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R6 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R7 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R8 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R9 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R10 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R11 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R12 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R13 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R14 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R15 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R16 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R17 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R18 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R19 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R20 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R21 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R22 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R23 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R24 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R25 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R26 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R27 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R28 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R29 Old Footprint=R 0805_L New Footprint=R 0603_L
+Change Component Footprint: Designator=R30 Old Footprint=R 0805_L New Footprint=R 0603_L
+Add Component: Footprint Not Found DO-27
+Add Component: Footprint Not Found DO-35
+Add Component: Footprint Not Found SMA-KE-LI
+Add Component: Footprint Not Found CD31
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found TO220A
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Add Component: Footprint Not Found LGA-16_L3.0-W3.0-P0.50-BL
+Add Component: Footprint Not Found LGA-8_L2.5-W2.0-P0.65_AMP6127
+Added Component: Designator=U5(QFN24)
+Add component (AddParameter): Name = "Contributor"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "SEMTECH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "SX1262IMLTRT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "nameAlias"; Value = "Value"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "SX1262IMLTRT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C191341"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Added Component: Designator=U8(SOP8)
+Add component (AddParameter): Name = "Contributor"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "WCH(南京沁恒)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "CH340N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spicePre"; Value = "U"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "spiceSymbolName"; Value = "CH340N_C2977777"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C2977777"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found OSC 1612-4P
+Add Component: Footprint Not Found OSC 1612-4P
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin DZ1-1
+Add Pin To Net: Unknown Pin: Pin DZ1-2
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin J2-1
+Add Pin To Net: Unknown Pin: Pin J2-2
+Add Pin To Net: Unknown Pin: Pin J2-3
+Add Pin To Net: Unknown Pin: Pin J2-4
+Add Pin To Net: Unknown Pin: Pin JP1-1
+Add Pin To Net: Unknown Pin: Pin JP1-2
+Add Pin To Net: Unknown Pin: Pin JP1-3
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin L5-1
+Add Pin To Net: Unknown Pin: Pin L5-2
+Add Pin To Net: Unknown Pin: Pin L6-1
+Add Pin To Net: Unknown Pin: Pin L6-2
+Add Pin To Net: Unknown Pin: Pin L7-1
+Add Pin To Net: Unknown Pin: Pin L7-2
+Add Pin To Net: Unknown Pin: Pin LED1-1
+Add Pin To Net: Unknown Pin: Pin LED1-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Add Pin To Net: Unknown Pin: Pin LED3-1
+Add Pin To Net: Unknown Pin: Pin LED3-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin Q2-1
+Add Pin To Net: Unknown Pin: Pin Q2-2
+Add Pin To Net: Unknown Pin: Pin Q2-3
+Add Pin To Net: Unknown Pin: Pin Q3-1
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q4-1
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Added Pin To Net: NetName=3V3_Lora Pin=U5-1
+Added Pin To Net: NetName=3V3_MCU Pin=U5-2
+Added Pin To Net: NetName=NetU5_3 Pin=U5-3
+Added Pin To Net: NetName=NetU5_4 Pin=U5-4
+Added Pin To Net: NetName=3V3_MCU Pin=U5-5
+Added Pin To Net: NetName=NetC28_2 Pin=U5-7
+Added Pin To Net: NetName=3V3_MCU Pin=U5-8
+Added Pin To Net: NetName=NetL7_2 Pin=U5-9
+Added Pin To Net: NetName=3V3_Lora Pin=U5-10
+Added Pin To Net: NetName=3V3_Lora Pin=U5-11
+Added Pin To Net: NetName=DIO2 Pin=U5-12
+Added Pin To Net: NetName=SPI2_MISO Pin=U5-16
+Added Pin To Net: NetName=SPI2_MOSI Pin=U5-17
+Added Pin To Net: NetName=SPI2_SCK Pin=U5-18
+Added Pin To Net: NetName=LoRa_CS Pin=U5-19
+Added Pin To Net: NetName=3V3_MCU Pin=U5-20
+Added Pin To Net: NetName=3V3_MCU Pin=U5-21
+Added Pin To Net: NetName=NetC22_1 Pin=U5-22
+Added Pin To Net: NetName=NetL3_1 Pin=U5-23
+Added Pin To Net: NetName=NetC14_2 Pin=U5-24
+Added Pin To Net: NetName=3V3_MCU Pin=U5-25
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U7-1
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-4
+Add Pin To Net: Unknown Pin: Pin U7-A1B12
+Add Pin To Net: Unknown Pin: Pin U7-A4B9
+Add Pin To Net: Unknown Pin: Pin U7-A6
+Add Pin To Net: Unknown Pin: Pin U7-A7
+Add Pin To Net: Unknown Pin: Pin U7-B1A12
+Add Pin To Net: Unknown Pin: Pin U7-B4A9
+Add Pin To Net: Unknown Pin: Pin U7-B6
+Added Pin To Net: NetName=NetR22_2 Pin=U8-1
+Added Pin To Net: NetName=NetR24_2 Pin=U8-2
+Added Pin To Net: NetName=3V3_MCU Pin=U8-3
+Added Pin To Net: NetName=NetR25_1 Pin=U8-5
+Added Pin To Net: NetName=NetR26_1 Pin=U8-6
+Added Pin To Net: NetName=NetR23_1 Pin=U8-7
+Added Pin To Net: NetName=NetC30_2 Pin=U8-8
+Add Pin To Net: Unknown Pin: Pin X1-1
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Pin To Net: Unknown Pin: Pin X1-3
+Add Pin To Net: Unknown Pin: Pin X1-4
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Pin To Net: Unknown Pin: Pin X2-3
+Add Pin To Net: Unknown Pin: Pin X2-4
+Add Class Member: Failed to add class member : Component D1 SR540
+Add Class Member: Failed to add class member : Component DZ1 1N5256
+Add Class Member: Failed to add class member : Component J1 CON4
+Add Class Member: Failed to add class member : Component J2 CON4
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Add Class Member: Failed to add class member : Component JP1 天线接口
+Add Class Member: Failed to add class member : Component L1 6.8uH
+Add Class Member: Failed to add class member : Component L2
+Add Class Member: Failed to add class member : Component L3
+Add Class Member: Failed to add class member : Component L4
+Add Class Member: Failed to add class member : Component L5
+Add Class Member: Failed to add class member : Component L6
+Add Class Member: Failed to add class member : Component L7 10uH
+Add Class Member: Failed to add class member : Component LED1 红色
+Add Class Member: Failed to add class member : Component LED2 白色
+Add Class Member: Failed to add class member : Component LED3 绿色
+Add Class Member: Failed to add class member : Component Q1 AON6407-MS
+Add Class Member: Failed to add class member : Component Q2 2N7002
+Add Class Member: Failed to add class member : Component Q3 AON6407-MS
+Add Class Member: Failed to add class member : Component Q4 AON6407-MS
+Add Class Member: Failed to add class member : Component U1 ME6212C33M5G
+Add Class Member: Failed to add class member : Component U2 ME3116
+Add Class Member: Failed to add class member : Component U3 ICM-20602
+Add Class Member: Failed to add class member : Component U4 BMP280
+Added Member To Class: ClassName=COMMUNICATION Member=Component U5 SX1262IMLTRT
+Add Class Member: Failed to add class member : Component U6 PE4259-63
+Add Class Member: Failed to add class member : Component U7 GT-USB-7010ASV
+Added Member To Class: ClassName=COMMUNICATION Member=Component U8 CH340N_C2977777
+Add Class Member: Failed to add class member : Component X1 32M
+Add Class Member: Failed to add class member : Component X2 8M

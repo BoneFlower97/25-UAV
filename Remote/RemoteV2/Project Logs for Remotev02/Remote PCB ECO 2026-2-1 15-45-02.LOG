@@ -1,0 +1,40 @@
+Change Footprint: Footprint Not Found Model Name
+Change Component Designator: OldDesignator=C? NewDesignator=C27
+Change Component Designator: OldDesignator=C? NewDesignator=C28
+Change Component Designator: OldDesignator=R? NewDesignator=R29
+Change Component Designator: OldDesignator=R? NewDesignator=R37
+Change Component Designator: OldDesignator=R? NewDesignator=R38
+Change Component Designator: OldDesignator=R? NewDesignator=R47
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR29_2
+Added Pin To Net: NetName=NetR37_2 Pin=R37-2
+Added Pin To Net: NetName=NetR37_2 Pin=U2-14
+Added Net: Name=NetR37_2
+Added Pin To Net: NetName=NetR38_2 Pin=R38-2
+Added Pin To Net: NetName=NetR38_2 Pin=U2-13
+Added Net: Name=NetR38_2
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_2 Pin=U2-12
+Added Net: Name=NetR47_2
+Added Member To Class: ClassName=COMMUNICATION Member=Component C27 4.7uF
+Added Member To Class: ClassName=COMMUNICATION Member=Component R29 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R37 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R47 0R

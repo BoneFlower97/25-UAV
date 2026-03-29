@@ -1,0 +1,24 @@
+Add Component: Footprint Not Found bell
+Added Component: Designator=J?(M3x5+6_L)
+Added Component: Designator=J?(M3x5+6_L)
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Add Net: Net with name "NetJ?_2" already exists
+Add Net: Net with name "NetJ?_2" already exists
+Add Class Member: Failed to add class member : Component b1 BELL
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?

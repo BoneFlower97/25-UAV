@@ -1,0 +1,72 @@
+Removed Member From Class: ClassName=INPUT Member=C29
+Removed Member From Class: ClassName=INPUT Member=C30
+Removed Member From Class: ClassName=INPUT Member=C31
+Removed Member From Class: ClassName=INPUT Member=C32
+Removed Member From Class: ClassName=INPUT Member=C33
+Removed Member From Class: ClassName=INPUT Member=C34
+Removed Member From Class: ClassName=COMMUNICATION Member=C35
+Removed Member From Class: ClassName=INPUT Member=C35
+Removed Member From Class: ClassName=COMMUNICATION Member=C36
+Removed Member From Class: ClassName=INPUT Member=J16
+Removed Member From Class: ClassName=INPUT Member=R27
+Removed Member From Class: ClassName=INPUT Member=R28
+Removed Member From Class: ClassName=INPUT Member=R33
+Removed Member From Class: ClassName=COMMUNICATION Member=R38
+Removed Member From Class: ClassName=INPUT Member=R38
+Removed Member From Class: ClassName=COMMUNICATION Member=R39
+Removed Member From Class: ClassName=COMMUNICATION Member=R40
+Change Component Footprint: Designator=电源1 Old Footprint=TX60PW-M20 New Footprint=MX 1.25-WS-2P
+Change Component Comment : Designator=电源1 Old Comment=CON2 New Comment=TJC3-2Y
+Change component parameters: Designator = "电源1" ("电源1"); Footprint = "TX60PW-M20"; UniqueID = "\LFESFREM" ("\LFESFREM")
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.6"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Set Position"; Value = "0.5"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found bell
+Added Component: Designator=电源2(MX 1.25-WS-2P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Set Position"; Value = "0.5"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=12V Pin=电源2-1
+Added Pin To Net: NetName=GND Pin=电源2-2
+Add Class Member: Failed to add class member : Component b1 BELL
+Added Member To Class: ClassName=INPUT Member=Component C18 100nF
+Added Member To Class: ClassName=INPUT Member=Component C19 100nF
+Added Member To Class: ClassName=INPUT Member=Component C20 100nF
+Added Member To Class: ClassName=INPUT Member=Component C21 100nF
+Added Member To Class: ClassName=INPUT Member=Component C22 100nF
+Added Member To Class: ClassName=INPUT Member=Component C23 100nF
+Added Member To Class: ClassName=INPUT Member=Component C24 100nF
+Added Member To Class: ClassName=INPUT Member=Component C25 100nF
+Added Member To Class: ClassName=INPUT Member=Component C26 100nF
+Added Member To Class: ClassName=COMMUNICATION Member=Component C27 100nF
+Added Member To Class: ClassName=COMMUNICATION Member=Component C28 100nF
+Added Member To Class: ClassName=INPUT Member=Component J6 CON1
+Added Member To Class: ClassName=INPUT Member=Component J8 CON1
+Added Member To Class: ClassName=INPUT Member=Component J10 CON1
+Added Member To Class: ClassName=INPUT Member=Component J12 CON1
+Added Member To Class: ClassName=INPUT Member=Component J13 CON1
+Added Member To Class: ClassName=INPUT Member=Component R19
+Added Member To Class: ClassName=INPUT Member=Component R20
+Added Member To Class: ClassName=INPUT Member=Component R21
+Added Member To Class: ClassName=INPUT Member=Component R22
+Added Member To Class: ClassName=INPUT Member=Component R23 1K
+Added Member To Class: ClassName=COMMUNICATION Member=Component R24 1K
+Added Member To Class: ClassName=COMMUNICATION Member=Component R25 600Ω 100Mhz
+Added Member To Class: ClassName=COMMUNICATION Member=Component R26 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R29 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R30 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R31 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R32 0R
+Added Member To Class: ClassName=POWER Member=Component R34 1.8k
+Added Member To Class: ClassName=POWER Member=Component R35 0R
+Added Member To Class: ClassName=POWER Member=Component R36
+Added Member To Class: ClassName=INPUT Member=Component TJ3 TJC3-3Y
+Added Member To Class: ClassName=POWER Member=Component 电源2 TJC3-2Y

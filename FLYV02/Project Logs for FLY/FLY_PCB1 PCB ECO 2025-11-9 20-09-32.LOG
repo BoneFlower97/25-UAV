@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=COMMUNICATION Member=C20
+Added Pin To Net: NetName=3V3 Pin=J6-1
+Added Pin To Net: NetName=3V3_MCU Pin=J7-1
+Added Member To Class: ClassName=COMMUNICATION Member=Component C18 100nF
+Added Member To Class: ClassName=MCU Member=Component C19 100nF
+Added Member To Class: ClassName=MCU Member=Component C21 100nF
+Added Member To Class: ClassName=MCU Member=Component C23 100nF
+Added Member To Class: ClassName=MCU Member=Component C25 100nF
+Added Member To Class: ClassName=MCU Member=Component C27 12pF
+Added Member To Class: ClassName=MCU Member=Component C29 2.2uF
+Added Member To Class: ClassName=MCU Member=Component J6 CON4

@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=GND Pin=C39-2
+Removed Pin From Net: NetName=GND Pin=R46-1
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Added Pin To Net: NetName=POWMER_KEY Pin=C39-2
+Added Pin To Net: NetName=POWMER_KEY Pin=R46-1
+Added Pin To Net: NetName=POWMER_KEY Pin=U1-2
+Added Net: Name=POWMER_KEY

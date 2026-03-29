@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=3v3 Pin=C27-1
+Removed Pin From Net: NetName=GND Pin=C28-1
+Removed Pin From Net: NetName=3V3_Lora Pin=C28-2
+Removed Pin From Net: NetName=GND Pin=C29-1
+Removed Pin From Net: NetName=3V3_Lora Pin=C29-2
+Removed Pin From Net: NetName=3v3 Pin=R29-2
+Removed Pin From Net: NetName=RX1 Pin=U2-2
+Removed Pin From Net: NetName=GND Pin=U2-14
+Removed Pin From Net: NetName=3V3_Lora Pin=U2-15
+Removed Pin From Net: NetName=TX1 Pin=U2-21
+Removed Pin From Net: NetName=GND Pin=U2-28
+Removed Pin From Net: NetName=GND Pin=U2-30
+Removed Pin From Net: NetName=3v3 Pin=V1-
+Removed Member From Class: ClassName=COMMUNICATION Member=C27
+Removed Member From Class: ClassName=COMMUNICATION Member=C28
+Removed Member From Class: ClassName=COMMUNICATION Member=C29
+Removed Member From Class: ClassName=COMMUNICATION Member=R29
+Removed Member From Class: ClassName=COMMUNICATION Member=U2
+Change Footprint: Footprint Not Found Model Name
+Change Component Comment : Designator=R22 Old Comment= New Comment=1K
+Change Component Comment : Designator=R23 Old Comment=10K New Comment=0R
+Added Component: Designator=U?(RA-01SCH-P-TJFZ)
+Add component (AddParameter): Name = "AddInBom"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Antenna Type"; Value = "IPEX接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Channel ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ConvertToPcb"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://item.szlcsc.com/datasheet/Ra-01S/770920.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "Ra-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FootprintName"; Value = "COMM-SMD_RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Group ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface Type"; Value = "SPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "两件套 LoRa 系列模块 两件套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ai-Thinker(安信可)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPart"; Value = "Ra-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelId"; Value = "bfb9ea955ff445c193018999188b6f80聨0819f05c4eef4c71ace90d822a990e87"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelName"; Value = "COMM-SMD_L17.0-W16.0-H3.2-RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelTransform"; Value = "629.92,669.29,0,0,0,0,0.001,0,0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modulation System"; Value = "LoRa；OOK；MSK；GFSK；FSK；GMSK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40℃~+85℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Power"; Value = "22dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Receive  Current"; Value = "4.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reuse Block"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Send  Current"; Value = "140mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "-140dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,17x16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SupplierPart"; Value = "C724871"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "3.3V"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Added Member To Class: ClassName=COMMUNICATION Member=Component U? Ra-01S

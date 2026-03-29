@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=BUSY Pin=U7-41
+Added Pin To Net: NetName=BUSY Pin=U7-28
+Added Pin To Net: NetName=SX1268_CS Pin=U7-41

@@ -1,0 +1,2730 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [sever_V02\sever_V02.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image sever_V02\sever_V02.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Fri Mar 27 16:15:47 2026
+<BR><P>
+<H3>Maximum Stack Usage =        344 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+RadioIsChannelFree &rArr; RadioSetRxConfig &rArr; SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+<P>
+<H3>
+Functions with no stack information
+</H3><UL>
+ <LI><a href="#[7d]">__user_initial_stackheap</a>
+</UL>
+</UL>
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[1f]">ADC1_2_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[1f]">ADC1_2_IRQHandler</a><BR>
+ <LI><a href="#[7]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[7]">BusFault_Handler</a><BR>
+ <LI><a href="#[5]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[5]">HardFault_Handler</a><BR>
+ <LI><a href="#[6]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[6]">MemManage_Handler</a><BR>
+ <LI><a href="#[4]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4]">NMI_Handler</a><BR>
+ <LI><a href="#[60]">RadioSetPublicNetwork</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4c]">RadioSetModem</a><BR>
+ <LI><a href="#[48]">StartDefaultTask</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[48]">StartDefaultTask</a><BR>
+ <LI><a href="#[8]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[8]">UsageFault_Handler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[1f]">ADC1_2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[3a]">ADC_DMAConvCplt</a> from stm32f1xx_hal_adc.o(i.ADC_DMAConvCplt) referenced from stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+ <LI><a href="#[3c]">ADC_DMAError</a> from stm32f1xx_hal_adc.o(i.ADC_DMAError) referenced from stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+ <LI><a href="#[3b]">ADC_DMAHalfConvCplt</a> from stm32f1xx_hal_adc.o(i.ADC_DMAHalfConvCplt) referenced from stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+ <LI><a href="#[7]">BusFault_Handler</a> from stm32f1xx_it.o(i.BusFault_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[22]">CAN1_RX1_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[23]">CAN1_SCE_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[18]">DMA1_Channel1_IRQHandler</a> from stm32f1xx_it.o(i.DMA1_Channel1_IRQHandler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[19]">DMA1_Channel2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[1a]">DMA1_Channel3_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[1b]">DMA1_Channel4_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[1c]">DMA1_Channel5_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[1d]">DMA1_Channel6_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[1e]">DMA1_Channel7_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[a]">DebugMon_Handler</a> from stm32f1xx_it.o(i.DebugMon_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[13]">EXTI0_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[35]">EXTI15_10_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[14]">EXTI1_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[15]">EXTI2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[16]">EXTI3_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[17]">EXTI4_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[24]">EXTI9_5_IRQHandler</a> from stm32f1xx_it.o(i.EXTI9_5_IRQHandler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[11]">FLASH_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[5]">HardFault_Handler</a> from stm32f1xx_it.o(i.HardFault_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2d]">I2C1_ER_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2c]">I2C1_EV_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2f]">I2C2_ER_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2e]">I2C2_EV_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[6]">MemManage_Handler</a> from stm32f1xx_it.o(i.MemManage_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[4]">NMI_Handler</a> from stm32f1xx_it.o(i.NMI_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[e]">PVD_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[b]">PendSV_Handler</a> from port.o(.emb_text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[12]">RCC_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[36]">RTC_Alarm_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[10]">RTC_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[52]">RadioCheckRfFrequency</a> from radio.o(i.RadioCheckRfFrequency) referenced from radio.o(.constdata)
+ <LI><a href="#[4b]">RadioGetStatus</a> from radio.o(i.RadioGetStatus) referenced from radio.o(.constdata)
+ <LI><a href="#[61]">RadioGetWakeupTime</a> from radio.o(i.RadioGetWakeupTime) referenced from radio.o(.constdata)
+ <LI><a href="#[4a]">RadioInit</a> from radio.o(i.RadioInit) referenced from radio.o(.constdata)
+ <LI><a href="#[62]">RadioIrqProcess</a> from radio.o(i.RadioIrqProcess) referenced from radio.o(.constdata)
+ <LI><a href="#[4e]">RadioIsChannelFree</a> from radio.o(i.RadioIsChannelFree) referenced from radio.o(.constdata)
+ <LI><a href="#[3d]">RadioOnDioIrq</a> from radio.o(i.RadioOnDioIrq) referenced from radio.o(i.RadioInit)
+ <LI><a href="#[4f]">RadioRandom</a> from radio.o(i.RadioRandom) referenced from radio.o(.constdata)
+ <LI><a href="#[5c]">RadioRead</a> from radio.o(i.RadioRead) referenced from radio.o(.constdata)
+ <LI><a href="#[5e]">RadioReadBuffer</a> from radio.o(i.RadioReadBuffer) referenced from radio.o(.constdata)
+ <LI><a href="#[5a]">RadioRssi</a> from radio.o(i.RadioRssi) referenced from radio.o(.constdata)
+ <LI><a href="#[57]">RadioRx</a> from radio.o(i.RadioRx) referenced from radio.o(.constdata)
+ <LI><a href="#[63]">RadioRxBoosted</a> from radio.o(i.RadioRxBoosted) referenced from radio.o(.constdata)
+ <LI><a href="#[54]">RadioSend</a> from radio.o(i.RadioSend) referenced from radio.o(.constdata)
+ <LI><a href="#[4d]">RadioSetChannel</a> from radio.o(i.RadioSetChannel) referenced from radio.o(.constdata)
+ <LI><a href="#[5f]">RadioSetMaxPayloadLength</a> from radio.o(i.RadioSetMaxPayloadLength) referenced from radio.o(.constdata)
+ <LI><a href="#[4c]">RadioSetModem</a> from radio.o(i.RadioSetModem) referenced from radio.o(.constdata)
+ <LI><a href="#[60]">RadioSetPublicNetwork</a> from radio.o(i.RadioSetPublicNetwork) referenced from radio.o(.constdata)
+ <LI><a href="#[50]">RadioSetRxConfig</a> from radio.o(i.RadioSetRxConfig) referenced from radio.o(.constdata)
+ <LI><a href="#[64]">RadioSetRxDutyCycle</a> from radio.o(i.RadioSetRxDutyCycle) referenced from radio.o(.constdata)
+ <LI><a href="#[51]">RadioSetTxConfig</a> from radio.o(i.RadioSetTxConfig) referenced from radio.o(.constdata)
+ <LI><a href="#[59]">RadioSetTxContinuousWave</a> from radio.o(i.RadioSetTxContinuousWave) referenced from radio.o(.constdata)
+ <LI><a href="#[55]">RadioSleep</a> from radio.o(i.RadioSleep) referenced from radio.o(.constdata)
+ <LI><a href="#[56]">RadioStandby</a> from radio.o(i.RadioStandby) referenced from radio.o(.constdata)
+ <LI><a href="#[58]">RadioStartCad</a> from radio.o(i.RadioStartCad) referenced from radio.o(.constdata)
+ <LI><a href="#[53]">RadioTimeOnAir</a> from radio.o(i.RadioTimeOnAir) referenced from radio.o(.constdata)
+ <LI><a href="#[5b]">RadioWrite</a> from radio.o(i.RadioWrite) referenced from radio.o(.constdata)
+ <LI><a href="#[5d]">RadioWriteBuffer</a> from radio.o(i.RadioWriteBuffer) referenced from radio.o(.constdata)
+ <LI><a href="#[3]">Reset_Handler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[30]">SPI1_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[31]">SPI2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[9]">SVC_Handler</a> from port.o(.emb_text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[44]">SX126xOnRxDone</a> from sx126x_example_recive.o(i.SX126xOnRxDone) referenced from sx126x_example_recive.o(i.wirelessTask)
+ <LI><a href="#[47]">SX126xOnRxError</a> from sx126x_example_recive.o(i.SX126xOnRxError) referenced from sx126x_example_recive.o(i.wirelessTask)
+ <LI><a href="#[46]">SX126xOnRxTimeout</a> from sx126x_example_recive.o(i.SX126xOnRxTimeout) referenced from sx126x_example_recive.o(i.wirelessTask)
+ <LI><a href="#[43]">SX126xOnTxDone</a> from sx126x_example_recive.o(i.SX126xOnTxDone) referenced from sx126x_example_recive.o(i.wirelessTask)
+ <LI><a href="#[45]">SX126xOnTxTimeout</a> from sx126x_example_recive.o(i.SX126xOnTxTimeout) referenced from sx126x_example_recive.o(i.wirelessTask)
+ <LI><a href="#[48]">StartDefaultTask</a> from freertos.o(i.StartDefaultTask) referenced from freertos.o(.constdata)
+ <LI><a href="#[c]">SysTick_Handler</a> from port.o(i.SysTick_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[38]">SystemInit</a> from system_stm32f1xx.o(i.SystemInit) referenced from startup_stm32f103xb.o(.text)
+ <LI><a href="#[f]">TAMPER_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[25]">TIM1_BRK_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[28]">TIM1_CC_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[27]">TIM1_TRG_COM_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[26]">TIM1_UP_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[29]">TIM2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2a]">TIM3_IRQHandler</a> from stm32f1xx_it.o(i.TIM3_IRQHandler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[2b]">TIM4_IRQHandler</a> from stm32f1xx_it.o(i.TIM4_IRQHandler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[32]">USART1_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[33]">USART2_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[34]">USART3_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[37]">USBWakeUp_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[20]">USB_HP_CAN1_TX_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[21]">USB_LP_CAN1_RX0_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[8]">UsageFault_Handler</a> from stm32f1xx_it.o(i.UsageFault_Handler) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[d]">WWDG_IRQHandler</a> from startup_stm32f103xb.o(.text) referenced from startup_stm32f103xb.o(RESET)
+ <LI><a href="#[65]">__main</a> from __main.o(!!!main) referenced from startup_stm32f103xb.o(.text)
+ <LI><a href="#[42]">prvIdleTask</a> from tasks.o(i.prvIdleTask) referenced from tasks.o(i.vTaskStartScheduler)
+ <LI><a href="#[3e]">prvTaskExitError</a> from port.o(i.prvTaskExitError) referenced from port.o(i.pxPortInitialiseStack)
+ <LI><a href="#[49]">startTask</a> from freertos.o(i.startTask) referenced from freertos.o(.constdata)
+ <LI><a href="#[3f]">updateStateTask</a> from processstate.o(i.updateStateTask) referenced from freertos.o(i.startTask)
+ <LI><a href="#[41]">wirelessTask</a> from sx126x_example_recive.o(i.wirelessTask) referenced from freertos.o(i.startTask)
+ <LI><a href="#[40]">wirelessTxTask</a> from wireless.o(i.wirelessTxTask) referenced from freertos.o(i.startTask)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[65]"></a>__main</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, __main.o(!!!main))
+<BR><BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[66]"></a>__scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter))
+<BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[68]"></a>__scatterload_rt2</STRONG> (Thumb, 44 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
+</UL>
+
+<P><STRONG><a name="[14f]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[150]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+
+<P><STRONG><a name="[69]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
+</UL>
+
+<P><STRONG><a name="[151]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+
+<P><STRONG><a name="[6d]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
+</UL>
+
+<P><STRONG><a name="[152]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+
+<P><STRONG><a name="[153]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+
+<P><STRONG><a name="[154]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+
+<P><STRONG><a name="[155]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+
+<P><STRONG><a name="[156]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+
+<P><STRONG><a name="[157]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+
+<P><STRONG><a name="[158]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+
+<P><STRONG><a name="[159]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+
+<P><STRONG><a name="[15a]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+
+<P><STRONG><a name="[15b]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+
+<P><STRONG><a name="[15c]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+
+<P><STRONG><a name="[15d]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+
+<P><STRONG><a name="[15e]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+
+<P><STRONG><a name="[15f]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+
+<P><STRONG><a name="[160]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+
+<P><STRONG><a name="[161]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+
+<P><STRONG><a name="[162]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+
+<P><STRONG><a name="[163]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+
+<P><STRONG><a name="[164]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+
+<P><STRONG><a name="[165]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+
+<P><STRONG><a name="[166]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+
+<P><STRONG><a name="[72]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
+</UL>
+
+<P><STRONG><a name="[167]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+
+<P><STRONG><a name="[168]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000007))
+
+<P><STRONG><a name="[169]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F))
+
+<P><STRONG><a name="[16a]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000010))
+
+<P><STRONG><a name="[16b]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A))
+
+<P><STRONG><a name="[16c]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+
+<P><STRONG><a name="[16d]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+
+<P><STRONG><a name="[67]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
+</UL>
+
+<P><STRONG><a name="[16e]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+
+<P><STRONG><a name="[6a]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_sh &rArr; __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[6c]"></a>__rt_entry_li</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000A))
+<BR><BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
+</UL>
+
+<P><STRONG><a name="[16f]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+
+<P><STRONG><a name="[6e]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
+<LI>Call Chain = __rt_entry_main &rArr; main &rArr; MX_FREERTOS_Init &rArr; osThreadCreate &rArr; xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[170]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+
+<P><STRONG><a name="[7e]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<BR><BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
+</UL>
+
+<P><STRONG><a name="[71]"></a>__rt_exit_ls</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000003))
+<BR><BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
+</UL>
+
+<P><STRONG><a name="[171]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+
+<P><STRONG><a name="[73]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
+</UL>
+
+<P><STRONG><a name="[9]"></a>SVC_Handler</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, port.o(.emb_text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[14b]"></a>__asm___6_port_c_39a90d8d__prvStartFirstTask</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, port.o(.emb_text))
+<BR><BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xPortStartScheduler
+</UL>
+
+<P><STRONG><a name="[b]"></a>PendSV_Handler</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, port.o(.emb_text))
+<BR><BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSwitchContext
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[172]"></a>vPortGetIPSR</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, port.o(.emb_text), UNUSED)
+
+<P><STRONG><a name="[3]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1f]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[22]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[23]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[19]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1a]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1b]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1c]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1d]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[1e]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[13]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[14]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[15]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[16]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[17]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[11]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[2d]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[2c]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[2f]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[2e]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[e]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[12]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[36]"></a>RTC_Alarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[10]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[30]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[31]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[f]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[25]"></a>TIM1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[28]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[27]"></a>TIM1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[26]"></a>TIM1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[29]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[32]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[20]"></a>USB_HP_CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[21]"></a>USB_LP_CAN1_RX0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[d]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[7d]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_stm32f103xb.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[126]"></a>__aeabi_memcpy</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memcpy_v6.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCopyDataToQueue
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCopyDataFromQueue
+</UL>
+
+<P><STRONG><a name="[76]"></a>__rt_memcpy</STRONG> (Thumb, 138 bytes, Stack size 0 bytes, rt_memcpy_v6.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+
+<P><STRONG><a name="[173]"></a>_memcpy_lastbytes</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memcpy_v6.o(.text), UNUSED)
+
+<P><STRONG><a name="[77]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_FREERTOS_Init
+<LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_memcpy
+</UL>
+
+<P><STRONG><a name="[174]"></a>__aeabi_memcpy8</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
+
+<P><STRONG><a name="[175]"></a>__rt_memcpy_w</STRONG> (Thumb, 100 bytes, Stack size 8 bytes, rt_memcpy_w.o(.text), UNUSED)
+
+<P><STRONG><a name="[176]"></a>_memcpy_lastbytes_aligned</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memcpy_w.o(.text), UNUSED)
+
+<P><STRONG><a name="[78]"></a>__aeabi_memset</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, aeabi_memset.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
+</UL>
+
+<P><STRONG><a name="[117]"></a>__aeabi_memclr</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initKeyScan
+</UL>
+
+<P><STRONG><a name="[7a]"></a>__rt_memclr</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, rt_memclr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset_w
+</UL>
+
+<P><STRONG><a name="[79]"></a>_memset</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+
+<P><STRONG><a name="[fe]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = __aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketStatus
+</UL>
+
+<P><STRONG><a name="[177]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+
+<P><STRONG><a name="[178]"></a>__rt_memclr_w</STRONG> (Thumb, 78 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+
+<P><STRONG><a name="[7b]"></a>_memset_w</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr_w.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_memclr
+</UL>
+
+<P><STRONG><a name="[179]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[17a]"></a>__rt_heap_escrow$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[17b]"></a>__rt_heap_expand$2region</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+
+<P><STRONG><a name="[6b]"></a>__user_setup_stackheap</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, sys_stackheap_outer.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = __user_setup_stackheap
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
+</UL>
+
+<P><STRONG><a name="[70]"></a>exit</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, exit.o(.text))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
+<LI>Call Chain = exit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[17c]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[7c]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
+</UL>
+
+<P><STRONG><a name="[17d]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+
+<P><STRONG><a name="[74]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
+</UL>
+
+<P><STRONG><a name="[17e]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[17f]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[180]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+
+<P><STRONG><a name="[7f]"></a>ADC_ConversionStop_Disable</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, stm32f1xx_hal_adc.o(i.ADC_ConversionStop_Disable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = ADC_ConversionStop_Disable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Init
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADCEx_Calibration_Start
+</UL>
+
+<P><STRONG><a name="[3a]"></a>ADC_DMAConvCplt</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, stm32f1xx_hal_adc.o(i.ADC_DMAConvCplt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_DMAConvCplt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_ConvCpltCallback
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+</UL>
+<P><STRONG><a name="[3c]"></a>ADC_DMAError</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, stm32f1xx_hal_adc.o(i.ADC_DMAError))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_DMAError
+</UL>
+<BR>[Calls]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_ErrorCallback
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+</UL>
+<P><STRONG><a name="[3b]"></a>ADC_DMAHalfConvCplt</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, stm32f1xx_hal_adc.o(i.ADC_DMAHalfConvCplt))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_DMAHalfConvCplt
+</UL>
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_ConvHalfCpltCallback
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA)
+</UL>
+<P><STRONG><a name="[84]"></a>ADC_Enable</STRONG> (Thumb, 114 bytes, Stack size 24 bytes, stm32f1xx_hal_adc.o(i.ADC_Enable))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = ADC_Enable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADCEx_Calibration_Start
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Start_DMA
+</UL>
+
+<P><STRONG><a name="[141]"></a>ADC_Filter</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, processstate.o(i.ADC_Filter))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = ADC_Filter
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[7]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.BusFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[18]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.DMA1_Channel1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DMA1_Channel1_IRQHandler &rArr; HAL_DMA_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[a]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.DebugMon_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[24]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.EXTI9_5_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = EXTI9_5_IRQHandler &rArr; HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[8f]"></a>Error_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(i.Error_Handler))
+<BR><BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_MspInit
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_ADC1_Init
+</UL>
+
+<P><STRONG><a name="[c5]"></a>Flash_ErasePage</STRONG> (Thumb, 70 bytes, Stack size 0 bytes, processstate.o(i.Flash_ErasePage))
+<BR><BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QuadTrim_StoreToFlash
+</UL>
+
+<P><STRONG><a name="[c7]"></a>Flash_Lock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, processstate.o(i.Flash_Lock))
+<BR><BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QuadTrim_StoreToFlash
+</UL>
+
+<P><STRONG><a name="[c4]"></a>Flash_Unlock</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, processstate.o(i.Flash_Unlock))
+<BR><BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QuadTrim_StoreToFlash
+</UL>
+
+<P><STRONG><a name="[c6]"></a>Flash_WriteHalfWord</STRONG> (Thumb, 62 bytes, Stack size 0 bytes, processstate.o(i.Flash_WriteHalfWord))
+<BR><BR>[Called By]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QuadTrim_StoreToFlash
+</UL>
+
+<P><STRONG><a name="[87]"></a>HALSpi1InOut</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, spi.o(i.HALSpi1InOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+</UL>
+
+<P><STRONG><a name="[89]"></a>HAL_ADCEx_Calibration_Start</STRONG> (Thumb, 210 bytes, Stack size 24 bytes, stm32f1xx_hal_adc_ex.o(i.HAL_ADCEx_Calibration_Start))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = HAL_ADCEx_Calibration_Start &rArr; ADC_Enable
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_GetPeriphCLKFreq
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Enable
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ConversionStop_Disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[b9]"></a>HAL_ADC_ConfigChannel</STRONG> (Thumb, 240 bytes, Stack size 24 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_ConfigChannel))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_ADC_ConfigChannel
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_ADC1_Init
+</UL>
+
+<P><STRONG><a name="[81]"></a>HAL_ADC_ConvCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_ConvCpltCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DMAConvCplt
+</UL>
+
+<P><STRONG><a name="[83]"></a>HAL_ADC_ConvHalfCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_ConvHalfCpltCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DMAHalfConvCplt
+</UL>
+
+<P><STRONG><a name="[82]"></a>HAL_ADC_ErrorCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_ErrorCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_DMAError
+</UL>
+
+<P><STRONG><a name="[8b]"></a>HAL_ADC_Init</STRONG> (Thumb, 272 bytes, Stack size 24 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_ADC_Init &rArr; HAL_ADC_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_MspInit
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ConversionStop_Disable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_ADC1_Init
+</UL>
+
+<P><STRONG><a name="[8c]"></a>HAL_ADC_MspInit</STRONG> (Thumb, 122 bytes, Stack size 40 bytes, adc.o(i.HAL_ADC_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_ADC_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Init
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Init
+</UL>
+
+<P><STRONG><a name="[90]"></a>HAL_ADC_Start_DMA</STRONG> (Thumb, 246 bytes, Stack size 32 bytes, stm32f1xx_hal_adc.o(i.HAL_ADC_Start_DMA))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = HAL_ADC_Start_DMA &rArr; HAL_DMA_Start_IT &rArr; DMA_SetConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Enable
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Start_IT
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[85]"></a>HAL_DMA_IRQHandler</STRONG> (Thumb, 316 bytes, Stack size 40 bytes, stm32f1xx_hal_dma.o(i.HAL_DMA_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_DMA_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA1_Channel1_IRQHandler
+</UL>
+
+<P><STRONG><a name="[8e]"></a>HAL_DMA_Init</STRONG> (Thumb, 84 bytes, Stack size 12 bytes, stm32f1xx_hal_dma.o(i.HAL_DMA_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = HAL_DMA_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_MspInit
+</UL>
+
+<P><STRONG><a name="[91]"></a>HAL_DMA_Start_IT</STRONG> (Thumb, 112 bytes, Stack size 16 bytes, stm32f1xx_hal_dma.o(i.HAL_DMA_Start_IT))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = HAL_DMA_Start_IT &rArr; DMA_SetConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DMA_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Start_DMA
+</UL>
+
+<P><STRONG><a name="[93]"></a>HAL_GPIO_EXTI_Callback</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, gpio.o(i.HAL_GPIO_EXTI_Callback))
+<BR><BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dio_EXTI
+</UL>
+<BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+
+<P><STRONG><a name="[86]"></a>HAL_GPIO_EXTI_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_EXTI_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI9_5_IRQHandler
+</UL>
+
+<P><STRONG><a name="[8d]"></a>HAL_GPIO_Init</STRONG> (Thumb, 446 bytes, Stack size 40 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_MspInit
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+
+<P><STRONG><a name="[112]"></a>HAL_GPIO_ReadPin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_ReadPin))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scanTWInputs
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scanMatrixKeys
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+</UL>
+
+<P><STRONG><a name="[bf]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_WritePin))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scanMatrixKeys
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initKeyScan
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+</UL>
+
+<P><STRONG><a name="[80]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_GetTick))
+<BR><BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADCEx_Calibration_Start
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Enable
+<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_ConversionStop_Disable
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+</UL>
+
+<P><STRONG><a name="[b7]"></a>HAL_IncTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_IncTick))
+<BR><BR>[Called By]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
+</UL>
+
+<P><STRONG><a name="[95]"></a>HAL_Init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f1xx_hal.o(i.HAL_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[97]"></a>HAL_InitTick</STRONG> (Thumb, 132 bytes, Stack size 40 bytes, stm32f1xx_hal_timebase_tim.o(i.HAL_InitTick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetClockConfig
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Start_IT
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Init
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[98]"></a>HAL_MspInit</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, stm32f1xx_hal_msp.o(i.HAL_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[9d]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_MspInit
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_DMA_Init
+</UL>
+
+<P><STRONG><a name="[9e]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_MspInit
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_DMA_Init
+</UL>
+
+<P><STRONG><a name="[96]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
+<BR><BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[8a]"></a>HAL_RCCEx_GetPeriphCLKFreq</STRONG> (Thumb, 148 bytes, Stack size 8 bytes, stm32f1xx_hal_rcc_ex.o(i.HAL_RCCEx_GetPeriphCLKFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_RCCEx_GetPeriphCLKFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADCEx_Calibration_Start
+</UL>
+
+<P><STRONG><a name="[a1]"></a>HAL_RCCEx_PeriphCLKConfig</STRONG> (Thumb, 224 bytes, Stack size 32 bytes, stm32f1xx_hal_rcc_ex.o(i.HAL_RCCEx_PeriphCLKConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_RCCEx_PeriphCLKConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[a2]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 280 bytes, Stack size 32 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
+<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[99]"></a>HAL_RCC_GetClockConfig</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetClockConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[9a]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[a0]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
+<BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_GetPeriphCLKFreq
+</UL>
+
+<P><STRONG><a name="[a3]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq))
+<BR><BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+</UL>
+
+<P><STRONG><a name="[a4]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 778 bytes, Stack size 40 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_OscConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_RCC_OscConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[a5]"></a>HAL_SPI_Init</STRONG> (Thumb, 178 bytes, Stack size 16 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+
+<P><STRONG><a name="[a6]"></a>HAL_SPI_MspInit</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, spi.o(i.HAL_SPI_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+</UL>
+
+<P><STRONG><a name="[88]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 496 bytes, Stack size 56 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+</UL>
+<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HALSpi1InOut
+</UL>
+
+<P><STRONG><a name="[b4]"></a>HAL_TIMEx_BreakCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim_ex.o(i.HAL_TIMEx_BreakCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b6]"></a>HAL_TIMEx_CommutCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim_ex.o(i.HAL_TIMEx_CommutCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[c2]"></a>HAL_TIMEx_MasterConfigSynchronization</STRONG> (Thumb, 92 bytes, Stack size 16 bytes, stm32f1xx_hal_tim_ex.o(i.HAL_TIMEx_MasterConfigSynchronization))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_TIMEx_MasterConfigSynchronization
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+</UL>
+
+<P><STRONG><a name="[9b]"></a>HAL_TIM_Base_Init</STRONG> (Thumb, 90 bytes, Stack size 8 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_Base_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_MspInit
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_Base_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+</UL>
+
+<P><STRONG><a name="[a8]"></a>HAL_TIM_Base_MspInit</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, tim.o(i.HAL_TIM_Base_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Init
+</UL>
+
+<P><STRONG><a name="[9c]"></a>HAL_TIM_Base_Start_IT</STRONG> (Thumb, 76 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_Base_Start_IT))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+</UL>
+
+<P><STRONG><a name="[aa]"></a>HAL_TIM_ConfigClockSource</STRONG> (Thumb, 220 bytes, Stack size 16 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_ConfigClockSource))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_TIM_ConfigClockSource &rArr; TIM_ETR_SetConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ETR_SetConfig
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI2_ConfigInputStage
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_TI1_ConfigInputStage
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM_ITRx_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+</UL>
+
+<P><STRONG><a name="[b0]"></a>HAL_TIM_IC_CaptureCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_IC_CaptureCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[af]"></a>HAL_TIM_IRQHandler</STRONG> (Thumb, 304 bytes, Stack size 24 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_TIM_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_TriggerCallback
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PWM_PulseFinishedCallback
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_OC_DelayElapsedCallback
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IC_CaptureCallback
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIMEx_CommutCallback
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIMEx_BreakCallback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM4_IRQHandler
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TIM3_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b1]"></a>HAL_TIM_OC_DelayElapsedCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_OC_DelayElapsedCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b2]"></a>HAL_TIM_PWM_PulseFinishedCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_PWM_PulseFinishedCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b3]"></a>HAL_TIM_PeriodElapsedCallback</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(i.HAL_TIM_PeriodElapsedCallback))
+<BR><BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[b5]"></a>HAL_TIM_TriggerCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.HAL_TIM_TriggerCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+
+<P><STRONG><a name="[5]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.HardFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[b8]"></a>MX_ADC1_Init</STRONG> (Thumb, 132 bytes, Stack size 32 bytes, adc.o(i.MX_ADC1_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = MX_ADC1_Init &rArr; HAL_ADC_Init &rArr; HAL_ADC_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Init
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_ConfigChannel
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[ba]"></a>MX_DMA_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, dma.o(i.MX_DMA_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = MX_DMA_Init &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[bb]"></a>MX_FREERTOS_Init</STRONG> (Thumb, 88 bytes, Stack size 64 bytes, freertos.o(i.MX_FREERTOS_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
+<LI>Call Chain = MX_FREERTOS_Init &rArr; osThreadCreate &rArr; xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osThreadCreate
+<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[be]"></a>MX_GPIO_Init</STRONG> (Thumb, 288 bytes, Stack size 56 bytes, gpio.o(i.MX_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MX_GPIO_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c0]"></a>MX_SPI1_Init</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, spi.o(i.MX_SPI1_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MX_SPI1_Init &rArr; HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1]"></a>MX_TIM4_Init</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, tim.o(i.MX_TIM4_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = MX_TIM4_Init &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_ConfigClockSource
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Start_IT
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Init
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIMEx_MasterConfigSynchronization
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[6]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.MemManage_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[4]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.NMI_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[c3]"></a>QuadTrim_StoreToFlash</STRONG> (Thumb, 62 bytes, Stack size 20 bytes, processstate.o(i.QuadTrim_StoreToFlash))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = QuadTrim_StoreToFlash
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_WriteHalfWord
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_Unlock
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_Lock
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_ErasePage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[142]"></a>RC_Map</STRONG> (Thumb, 50 bytes, Stack size 8 bytes, processstate.o(i.RC_Map))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = RC_Map
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[52]"></a>RadioCheckRfFrequency</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.RadioCheckRfFrequency))
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[4b]"></a>RadioGetStatus</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, radio.o(i.RadioGetStatus))
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[61]"></a>RadioGetWakeupTime</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.RadioGetWakeupTime))
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[4a]"></a>RadioInit</STRONG> (Thumb, 68 bytes, Stack size 8 bytes, radio.o(i.RadioInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = RadioInit &rArr; SX126xSetTxParams &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xTimerInit
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRegulatorMode
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetBufferBaseAddress
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoInit
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[62]"></a>RadioIrqProcess</STRONG> (Thumb, 280 bytes, Stack size 24 bytes, radio.o(i.RadioIrqProcess))
+<BR><BR>[Stack]<UL><LI>Max Depth = 240<LI>Call Chain = RadioIrqProcess &rArr; SX126xGetPayload &rArr; SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xTxTimerStop
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xRxTimerStop
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPayload
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketStatus
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetIrqStatus
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xClearIrqStatus
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[4e]"></a>RadioIsChannelFree</STRONG> (Thumb, 120 bytes, Stack size 72 bytes, radio.o(i.RadioIsChannelFree))
+<BR><BR>[Stack]<UL><LI>Max Depth = 344<LI>Call Chain = RadioIsChannelFree &rArr; RadioSetRxConfig &rArr; SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRssiInst
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xDelayMs
+<LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSleep
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[3d]"></a>RadioOnDioIrq</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, radio.o(i.RadioOnDioIrq))
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(i.RadioInit)
+</UL>
+<P><STRONG><a name="[4f]"></a>RadioRandom</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, radio.o(i.RadioRandom))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = RadioRandom &rArr; SX126xGetRandom &rArr; SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5c]"></a>RadioRead</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.RadioRead))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = RadioRead &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5e]"></a>RadioReadBuffer</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.RadioReadBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioReadBuffer &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5a]"></a>RadioRssi</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.RadioRssi))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = RadioRssi &rArr; SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRssiInst
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[57]"></a>RadioRx</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, radio.o(i.RadioRx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = RadioRx &rArr; SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxTimerValue
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xRxTimerStart
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[63]"></a>RadioRxBoosted</STRONG> (Thumb, 54 bytes, Stack size 8 bytes, radio.o(i.RadioRxBoosted))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = RadioRxBoosted &rArr; SX126xSetRxBoosted &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxTimerValue
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xRxTimerStart
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[54]"></a>RadioSend</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, radio.o(i.RadioSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = RadioSend &rArr; SX126xSetPacketParams &rArr; SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xTxTimerStart
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxTimerValue
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketType
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[4d]"></a>RadioSetChannel</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.RadioSetChannel))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = RadioSetChannel &rArr; SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5f]"></a>RadioSetMaxPayloadLength</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, radio.o(i.RadioSetMaxPayloadLength))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = RadioSetMaxPayloadLength &rArr; SX126xSetPacketParams &rArr; SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[4c]"></a>RadioSetModem</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, radio.o(i.RadioSetModem))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = RadioSetModem &rArr; RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetPublicNetwork
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetPublicNetwork
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRandom
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[60]"></a>RadioSetPublicNetwork</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, radio.o(i.RadioSetPublicNetwork))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224 + In Cycle
+<LI>Call Chain = RadioSetPublicNetwork &rArr;  RadioSetModem (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[50]"></a>RadioSetRxConfig</STRONG> (Thumb, 400 bytes, Stack size 64 bytes, radio.o(i.RadioSetRxConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = RadioSetRxConfig &rArr; SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[64]"></a>RadioSetRxDutyCycle</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.RadioSetRxDutyCycle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioSetRxDutyCycle &rArr; SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[51]"></a>RadioSetTxConfig</STRONG> (Thumb, 354 bytes, Stack size 64 bytes, radio.o(i.RadioSetTxConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 272<LI>Call Chain = RadioSetTxConfig &rArr; SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetFskBandwidthRegValue
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[59]"></a>RadioSetTxContinuousWave</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, radio.o(i.RadioSetTxContinuousWave))
+<BR><BR>[Stack]<UL><LI>Max Depth = 224<LI>Call Chain = RadioSetTxContinuousWave &rArr; SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xTxTimerStart
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxTimerValue
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[55]"></a>RadioSleep</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, radio.o(i.RadioSleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = RadioSleep &rArr; SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xDelayMs
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[56]"></a>RadioStandby</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.RadioStandby))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = RadioStandby &rArr; SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[58]"></a>RadioStartCad</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, radio.o(i.RadioStartCad))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = RadioStartCad &rArr; SX126xSetDioIrqParams &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[53]"></a>RadioTimeOnAir</STRONG> (Thumb, 186 bytes, Stack size 32 bytes, radio.o(i.RadioTimeOnAir))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = RadioTimeOnAir &rArr; RadioGetLoRaTimeOnAirNumerator
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioGetLoRaTimeOnAirNumerator
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5b]"></a>RadioWrite</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.RadioWrite))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = RadioWrite &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[5d]"></a>RadioWriteBuffer</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.RadioWriteBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = RadioWriteBuffer &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> radio.o(.constdata)
+</UL>
+<P><STRONG><a name="[110]"></a>SX126xAntSwOff</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, radio.o(i.SX126xAntSwOff))
+<BR><BR>[Called By]<UL><LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+</UL>
+
+<P><STRONG><a name="[fa]"></a>SX126xAntSwOn</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, radio.o(i.SX126xAntSwOn))
+<BR><BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+
+<P><STRONG><a name="[f5]"></a>SX126xCalibrateImage</STRONG> (Thumb, 96 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCalibrateImage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+</UL>
+
+<P><STRONG><a name="[f7]"></a>SX126xCheckDeviceReady</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, sx126x.o(i.SX126xCheckDeviceReady))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetOperatingMode
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOn
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
+</UL>
+
+<P><STRONG><a name="[d1]"></a>SX126xClearIrqStatus</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, sx126x.o(i.SX126xClearIrqStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xClearIrqStatus &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[d9]"></a>SX126xDelayMs</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xDelayMs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = SX126xDelayMs &rArr; vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSleep
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+
+<P><STRONG><a name="[111]"></a>SX126xGetDeviceId</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, radio.o(i.SX126xGetDeviceId))
+<BR><BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+</UL>
+
+<P><STRONG><a name="[d0]"></a>SX126xGetIrqStatus</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x.o(i.SX126xGetIrqStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xGetIrqStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[f8]"></a>SX126xGetOperatingMode</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.SX126xGetOperatingMode))
+<BR><BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+
+<P><STRONG><a name="[d7]"></a>SX126xGetPacketStatus</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, sx126x.o(i.SX126xGetPacketStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xGetPacketStatus &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[e1]"></a>SX126xGetPacketType</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126x.o(i.SX126xGetPacketType))
+<BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+</UL>
+
+<P><STRONG><a name="[d6]"></a>SX126xGetPayload</STRONG> (Thumb, 46 bytes, Stack size 24 bytes, sx126x.o(i.SX126xGetPayload))
+<BR><BR>[Stack]<UL><LI>Max Depth = 216<LI>Call Chain = SX126xGetPayload &rArr; SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRxBufferStatus
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[db]"></a>SX126xGetRandom</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, sx126x.o(i.SX126xGetRandom))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SX126xGetRandom &rArr; SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRandom
+</UL>
+
+<P><STRONG><a name="[da]"></a>SX126xGetRssiInst</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, sx126x.o(i.SX126xGetRssiInst))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xGetRssiInst &rArr; SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRssi
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+
+<P><STRONG><a name="[ff]"></a>SX126xGetRxBufferStatus</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, sx126x.o(i.SX126xGetRxBufferStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SX126xGetRxBufferStatus &rArr; SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPayload
+</UL>
+
+<P><STRONG><a name="[c9]"></a>SX126xInit</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, sx126x.o(i.SX126xInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xInit &rArr; SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[101]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReset
+<LI><a href="#[102]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoIrqInit
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+<LI><a href="#[103]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoTcxoInit
+<LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoRfSwitchInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[c8]"></a>SX126xIoInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xIoInit))
+<BR><BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[102]"></a>SX126xIoIrqInit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xIoIrqInit))
+<BR><BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+
+<P><STRONG><a name="[104]"></a>SX126xIoRfSwitchInit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.SX126xIoRfSwitchInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xIoRfSwitchInit &rArr; SX126xSetDio2AsRfSwitchCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDio2AsRfSwitchCtrl
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+
+<P><STRONG><a name="[103]"></a>SX126xIoTcxoInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, radio.o(i.SX126xIoTcxoInit))
+<BR><BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+
+<P><STRONG><a name="[100]"></a>SX126xReadBuffer</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, radio.o(i.SX126xReadBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xReadBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPayload
+</UL>
+
+<P><STRONG><a name="[fd]"></a>SX126xReadCommand</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, radio.o(i.SX126xReadCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xReadCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRxBufferStatus
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRssiInst
+<LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetPacketStatus
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetIrqStatus
+</UL>
+
+<P><STRONG><a name="[d5]"></a>SX126xReadRegister</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, radio.o(i.SX126xReadRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xReadRegister &rArr; SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ff]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRxBufferStatus
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRead
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[dc]"></a>SX126xReadRegisters</STRONG> (Thumb, 78 bytes, Stack size 24 bytes, radio.o(i.SX126xReadRegisters))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xReadRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioReadBuffer
+</UL>
+
+<P><STRONG><a name="[101]"></a>SX126xReset</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xReset))
+<BR><BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+
+<P><STRONG><a name="[de]"></a>SX126xRxTimerStart</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xRxTimerStart))
+<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRxBoosted
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
+</UL>
+
+<P><STRONG><a name="[d3]"></a>SX126xRxTimerStop</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xRxTimerStop))
+<BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[e3]"></a>SX126xSendPayload</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSendPayload))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SX126xSendPayload &rArr; SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTx
+<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPayload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+</UL>
+
+<P><STRONG><a name="[cc]"></a>SX126xSetBufferBaseAddress</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetBufferBaseAddress))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetBufferBaseAddress &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[f1]"></a>SX126xSetCad</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCad))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetCad &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioStartCad
+</UL>
+
+<P><STRONG><a name="[10b]"></a>SX126xSetCrcPolynomial</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCrcPolynomial))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetCrcPolynomial &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+</UL>
+
+<P><STRONG><a name="[10c]"></a>SX126xSetCrcSeed</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetCrcSeed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+</UL>
+
+<P><STRONG><a name="[106]"></a>SX126xSetDio2AsRfSwitchCtrl</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetDio2AsRfSwitchCtrl))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetDio2AsRfSwitchCtrl &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[104]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xIoRfSwitchInit
+</UL>
+
+<P><STRONG><a name="[ce]"></a>SX126xSetDioIrqParams</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetDioIrqParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetDioIrqParams &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioStartCad
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRxBoosted
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRandom
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[ec]"></a>SX126xSetLoRaSymbNumTimeout</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetLoRaSymbNumTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SX126xSetLoRaSymbNumTimeout &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[e9]"></a>SX126xSetModulationParams</STRONG> (Thumb, 132 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetModulationParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = SX126xSetModulationParams &rArr; SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xConvertFreqInHzToPllStep
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[107]"></a>SX126xSetNss</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xSetNss))
+<BR><BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
+</UL>
+
+<P><STRONG><a name="[105]"></a>SX126xSetOperatingMode</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.SX126xSetOperatingMode))
+<BR><BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTx
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+</UL>
+
+<P><STRONG><a name="[10e]"></a>SX126xSetPaConfig</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetPaConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetPaConfig &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+</UL>
+
+<P><STRONG><a name="[e2]"></a>SX126xSetPacketParams</STRONG> (Thumb, 192 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetPacketParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = SX126xSetPacketParams &rArr; SX126xSetCrcSeed &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcSeed
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcPolynomial
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetMaxPayloadLength
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+</UL>
+
+<P><STRONG><a name="[e6]"></a>SX126xSetPacketType</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetPacketType))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetPacketType &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetModem
+</UL>
+
+<P><STRONG><a name="[109]"></a>SX126xSetPayload</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, sx126x.o(i.SX126xSetPayload))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xSetPayload &rArr; SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+</UL>
+
+<P><STRONG><a name="[cb]"></a>SX126xSetRegulatorMode</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetRegulatorMode))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetRegulatorMode &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[d8]"></a>SX126xSetRfFrequency</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRfFrequency))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SX126xSetRfFrequency &rArr; SX126xCalibrateImage &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCalibrateImage
+<LI><a href="#[10d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xConvertFreqInHzToPllStep
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
+<LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetChannel
+<LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIsChannelFree
+</UL>
+
+<P><STRONG><a name="[ee]"></a>SX126xSetRfTxPower</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, radio.o(i.SX126xSetRfTxPower))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SX126xSetRfTxPower &rArr; SX126xSetTxParams &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+</UL>
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+</UL>
+
+<P><STRONG><a name="[df]"></a>SX126xSetRx</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetRx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
+</UL>
+
+<P><STRONG><a name="[e0]"></a>SX126xSetRxBoosted</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxBoosted))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = SX126xSetRxBoosted &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRxBoosted
+</UL>
+
+<P><STRONG><a name="[ed]"></a>SX126xSetRxDutyCycle</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetRxDutyCycle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetRxDutyCycle &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxDutyCycle
+</UL>
+
+<P><STRONG><a name="[dd]"></a>SX126xSetRxTimerValue</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xSetRxTimerValue))
+<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRxBoosted
+<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioRx
+</UL>
+
+<P><STRONG><a name="[f0]"></a>SX126xSetSleep</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetSleep))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetSleep &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+<LI><a href="#[110]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xAntSwOff
+</UL>
+<BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSleep
+</UL>
+
+<P><STRONG><a name="[ca]"></a>SX126xSetStandby</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetStandby))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetStandby &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioStandby
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[e7]"></a>SX126xSetStopRxTimerOnPreambleDetect</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetStopRxTimerOnPreambleDetect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetStopRxTimerOnPreambleDetect &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[ea]"></a>SX126xSetSyncWord</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetSyncWord))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetSyncWord &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[10a]"></a>SX126xSetTx</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetTx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xSetTx &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSendPayload
+</UL>
+
+<P><STRONG><a name="[ef]"></a>SX126xSetTxContinuousWave</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, sx126x.o(i.SX126xSetTxContinuousWave))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = SX126xSetTxContinuousWave &rArr; SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[105]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetOperatingMode
+</UL>
+<BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
+</UL>
+
+<P><STRONG><a name="[cd]"></a>SX126xSetTxParams</STRONG> (Thumb, 126 bytes, Stack size 24 bytes, sx126x.o(i.SX126xSetTxParams))
+<BR><BR>[Stack]<UL><LI>Max Depth = 208<LI>Call Chain = SX126xSetTxParams &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPaConfig
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+<LI><a href="#[111]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetDeviceId
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfTxPower
+<LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[e4]"></a>SX126xSetTxTimerValue</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xSetTxTimerValue))
+<BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+</UL>
+
+<P><STRONG><a name="[eb]"></a>SX126xSetWhiteningSeed</STRONG> (Thumb, 52 bytes, Stack size 16 bytes, sx126x.o(i.SX126xSetWhiteningSeed))
+<BR><BR>[Stack]<UL><LI>Max Depth = 200<LI>Call Chain = SX126xSetWhiteningSeed &rArr; SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegister
+</UL>
+<BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[108]"></a>SX126xSpiInOut</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xSpiInOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HALSpi1InOut
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
+</UL>
+
+<P><STRONG><a name="[cf]"></a>SX126xTimerInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xTimerInit))
+<BR><BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioInit
+</UL>
+
+<P><STRONG><a name="[e5]"></a>SX126xTxTimerStart</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xTxTimerStart))
+<BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxContinuousWave
+<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSend
+</UL>
+
+<P><STRONG><a name="[d2]"></a>SX126xTxTimerStop</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.SX126xTxTimerStop))
+<BR><BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[fb]"></a>SX126xWaitOnBusy</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, sx126xstm32f103-board.o(i.SX126xWaitOnBusy))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = SX126xWaitOnBusy &rArr; vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+<LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteCommand
+<LI><a href="#[10f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteBuffer
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWakeup
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadRegisters
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadCommand
+<LI><a href="#[100]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xReadBuffer
+</UL>
+
+<P><STRONG><a name="[f9]"></a>SX126xWakeup</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, radio.o(i.SX126xWakeup))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xInit
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+
+<P><STRONG><a name="[10f]"></a>SX126xWriteBuffer</STRONG> (Thumb, 64 bytes, Stack size 24 bytes, radio.o(i.SX126xWriteBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xWriteBuffer &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPayload
+</UL>
+
+<P><STRONG><a name="[f6]"></a>SX126xWriteCommand</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, radio.o(i.SX126xWriteCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xWriteCommand &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTx
+<LI><a href="#[10e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPaConfig
+<LI><a href="#[f5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCalibrateImage
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+<LI><a href="#[ef]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxContinuousWave
+<LI><a href="#[e7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStopRxTimerOnPreambleDetect
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetStandby
+<LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSleep
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxDutyCycle
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRx
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+<LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRegulatorMode
+<LI><a href="#[e6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketType
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetPacketParams
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDioIrqParams
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetDio2AsRfSwitchCtrl
+<LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCad
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetBufferBaseAddress
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xClearIrqStatus
+</UL>
+
+<P><STRONG><a name="[d4]"></a>SX126xWriteRegister</STRONG> (Thumb, 12 bytes, Stack size 16 bytes, radio.o(i.SX126xWriteRegister))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = SX126xWriteRegister &rArr; SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegisters
+</UL>
+<BR>[Called By]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetWhiteningSeed
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetTxParams
+<LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRxBoosted
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetLoRaSymbNumTimeout
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xGetRandom
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioWrite
+<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetPublicNetwork
+<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioIrqProcess
+</UL>
+
+<P><STRONG><a name="[f3]"></a>SX126xWriteRegisters</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, radio.o(i.SX126xWriteRegisters))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168<LI>Call Chain = SX126xWriteRegisters &rArr; SX126xCheckDeviceReady &rArr; SX126xWakeup &rArr; SX126xSpiInOut &rArr; HALSpi1InOut &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[108]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSpiInOut
+<LI><a href="#[107]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetNss
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xCheckDeviceReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[10c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcSeed
+<LI><a href="#[10b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetCrcPolynomial
+<LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetSyncWord
+<LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWriteRegister
+<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioWriteBuffer
+</UL>
+
+<P><STRONG><a name="[48]"></a>StartDefaultTask</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, freertos.o(i.StartDefaultTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72 + In Cycle
+<LI>Call Chain = StartDefaultTask &rArr;  StartDefaultTask (Cycle)
+</UL>
+<BR>[Calls]<UL><LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osDelay
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StartDefaultTask
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StartDefaultTask
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> freertos.o(.constdata)
+</UL>
+<P><STRONG><a name="[c]"></a>SysTick_Handler</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, port.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SysTick_Handler &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[115]"></a>SystemClock_Config</STRONG> (Thumb, 120 bytes, Stack size 88 bytes, main.o(i.SystemClock_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 192<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_TIM_Base_Init &rArr; HAL_TIM_Base_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCCEx_PeriphCLKConfig
+<LI><a href="#[fe]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[38]"></a>SystemInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, system_stm32f1xx.o(i.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(.text)
+</UL>
+<P><STRONG><a name="[2a]"></a>TIM3_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.TIM3_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = TIM3_IRQHandler &rArr; HAL_TIM_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[2b]"></a>TIM4_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.TIM4_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = TIM4_IRQHandler &rArr; HAL_TIM_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[a9]"></a>TIM_Base_SetConfig</STRONG> (Thumb, 108 bytes, Stack size 20 bytes, stm32f1xx_hal_tim.o(i.TIM_Base_SetConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = TIM_Base_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_Base_Init
+</UL>
+
+<P><STRONG><a name="[ab]"></a>TIM_ETR_SetConfig</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, stm32f1xx_hal_tim.o(i.TIM_ETR_SetConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM_ETR_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_ConfigClockSource
+</UL>
+
+<P><STRONG><a name="[8]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.UsageFault_Handler))
+<BR><BR>[Calls]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
+</UL>
+<P><STRONG><a name="[94]"></a>dio_EXTI</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, sx126xstm32f103-board.o(i.dio_EXTI))
+<BR><BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[116]"></a>initKeyScan</STRONG> (Thumb, 46 bytes, Stack size 8 bytes, processstate.o(i.initKeyScan))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = initKeyScan
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[117]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[13e]"></a>isKeyPressed</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, processstate.o(i.isKeyPressed))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[140]"></a>isTWPressed</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, processstate.o(i.isTWPressed))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[6f]"></a>main</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
+<LI>Call Chain = main &rArr; MX_FREERTOS_Init &rArr; osThreadCreate &rArr; xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osKernelStart
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_TIM4_Init
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_FREERTOS_Init
+<LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_DMA_Init
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_ADC1_Init
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[115]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
+</UL>
+
+<P><STRONG><a name="[113]"></a>osDelay</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, cmsis_os.o(i.osDelay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = osDelay &rArr; vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;startTask
+<LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;StartDefaultTask
+</UL>
+
+<P><STRONG><a name="[118]"></a>osKernelStart</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, cmsis_os.o(i.osKernelStart))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128 + Unknown Stack Size
+<LI>Call Chain = osKernelStart &rArr; vTaskStartScheduler &rArr; xTaskCreateStatic &rArr; prvInitialiseNewTask &rArr; pxPortInitialiseStack
+</UL>
+<BR>[Calls]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[bd]"></a>osThreadCreate</STRONG> (Thumb, 84 bytes, Stack size 32 bytes, cmsis_os.o(i.osThreadCreate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 168 + Unknown Stack Size
+<LI>Call Chain = osThreadCreate &rArr; xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreateStatic
+<LI><a href="#[11a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;makeFreeRtosPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_FREERTOS_Init
+</UL>
+
+<P><STRONG><a name="[134]"></a>pvPortMalloc</STRONG> (Thumb, 216 bytes, Stack size 24 bytes, heap_4.o(i.pvPortMalloc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInsertBlockIntoFreeList
+<LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvHeapInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
+</UL>
+
+<P><STRONG><a name="[12f]"></a>pxPortInitialiseStack</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, port.o(i.pxPortInitialiseStack))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = pxPortInitialiseStack
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
+</UL>
+
+<P><STRONG><a name="[139]"></a>scanMatrixKeys</STRONG> (Thumb, 258 bytes, Stack size 32 bytes, processstate.o(i.scanMatrixKeys))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = scanMatrixKeys
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[13a]"></a>scanTWInputs</STRONG> (Thumb, 166 bytes, Stack size 24 bytes, processstate.o(i.scanTWInputs))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = scanTWInputs
+</UL>
+<BR>[Calls]<UL><LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[49]"></a>startTask</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, freertos.o(i.startTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152 + Unknown Stack Size
+<LI>Call Chain = startTask &rArr; xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osDelay
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> freertos.o(.constdata)
+</UL>
+<P><STRONG><a name="[3f]"></a>updateStateTask</STRONG> (Thumb, 602 bytes, Stack size 72 bytes, processstate.o(i.updateStateTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = updateStateTask &rArr; xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[112]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_ReadPin
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADCEx_Calibration_Start
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_ADC_Start_DMA
+<LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[143]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxTaskGetStackHighWaterMark
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortGetHeapStats
+<LI><a href="#[13a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scanTWInputs
+<LI><a href="#[139]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scanMatrixKeys
+<LI><a href="#[140]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;isTWPressed
+<LI><a href="#[13e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;isKeyPressed
+<LI><a href="#[116]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;initKeyScan
+<LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RC_Map
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;QuadTrim_StoreToFlash
+<LI><a href="#[141]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_Filter
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> freertos.o(i.startTask)
+</UL>
+<P><STRONG><a name="[11e]"></a>uxListRemove</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, list.o(i.uxListRemove))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIdleTask
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskPriorityDisinherit
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+</UL>
+
+<P><STRONG><a name="[143]"></a>uxTaskGetStackHighWaterMark</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, tasks.o(i.uxTaskGetStackHighWaterMark))
+<BR><BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[147]"></a>vApplicationGetIdleTaskMemory</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, freertos.o(i.vApplicationGetIdleTaskMemory))
+<BR><BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
+</UL>
+
+<P><STRONG><a name="[123]"></a>vListInitialise</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, list.o(i.vListInitialise))
+<BR><BR>[Called By]<UL><LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+</UL>
+
+<P><STRONG><a name="[12e]"></a>vListInitialiseItem</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, list.o(i.vListInitialiseItem))
+<BR><BR>[Called By]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
+</UL>
+
+<P><STRONG><a name="[120]"></a>vListInsert</STRONG> (Thumb, 48 bytes, Stack size 12 bytes, list.o(i.vListInsert))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = vListInsert
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskPlaceOnEventList
+</UL>
+
+<P><STRONG><a name="[11f]"></a>vListInsertEnd</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, list.o(i.vListInsertEnd))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskPriorityDisinherit
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+</UL>
+
+<P><STRONG><a name="[122]"></a>vPortEnterCritical</STRONG> (Thumb, 54 bytes, Stack size 0 bytes, port.o(i.vPortEnterCritical))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIdleTask
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCheckForTimeOut
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueEmpty
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortGetHeapStats
+</UL>
+
+<P><STRONG><a name="[124]"></a>vPortExitCritical</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, port.o(i.vPortExitCritical))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIdleTask
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCheckForTimeOut
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueEmpty
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortGetHeapStats
+</UL>
+
+<P><STRONG><a name="[12a]"></a>vPortFree</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, heap_4.o(i.vPortFree))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+<LI><a href="#[137]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInsertBlockIntoFreeList
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
+</UL>
+
+<P><STRONG><a name="[13d]"></a>vPortGetHeapStats</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, heap_4.o(i.vPortGetHeapStats))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = vPortGetHeapStats &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[14a]"></a>vPortSetupTimerInterrupt</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, port.o(i.vPortSetupTimerInterrupt))
+<BR><BR>[Called By]<UL><LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xPortStartScheduler
+</UL>
+
+<P><STRONG><a name="[fc]"></a>vTaskDelay</STRONG> (Thumb, 66 bytes, Stack size 8 bytes, tasks.o(i.vTaskDelay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = vTaskDelay &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+</UL>
+<BR>[Called By]<UL><LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTask
+<LI><a href="#[113]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osDelay
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xWaitOnBusy
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xDelayMs
+</UL>
+
+<P><STRONG><a name="[144]"></a>vTaskDelayUntil</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, tasks.o(i.vTaskDelayUntil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = vTaskDelayUntil &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+</UL>
+<BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTxTask
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTask
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[13b]"></a>vTaskDelete</STRONG> (Thumb, 158 bytes, Stack size 16 bytes, tasks.o(i.vTaskDelete))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = vTaskDelete &rArr; prvDeleteTCB &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvResetNextTaskUnblockTime
+<LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;startTask
+</UL>
+
+<P><STRONG><a name="[14d]"></a>vTaskInternalSetTimeOutState</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, tasks.o(i.vTaskInternalSetTimeOutState))
+<BR><BR>[Called By]<UL><LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCheckForTimeOut
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[133]"></a>vTaskMissedYield</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, tasks.o(i.vTaskMissedYield))
+<BR><BR>[Called By]<UL><LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+</UL>
+
+<P><STRONG><a name="[146]"></a>vTaskPlaceOnEventList</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, tasks.o(i.vTaskPlaceOnEventList))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = vTaskPlaceOnEventList &rArr; prvAddCurrentTaskToDelayedList &rArr; vListInsert
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddCurrentTaskToDelayedList
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsert
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[119]"></a>vTaskStartScheduler</STRONG> (Thumb, 90 bytes, Stack size 32 bytes, tasks.o(i.vTaskStartScheduler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120 + Unknown Stack Size
+<LI>Call Chain = vTaskStartScheduler &rArr; xTaskCreateStatic &rArr; prvInitialiseNewTask &rArr; pxPortInitialiseStack
+</UL>
+<BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vApplicationGetIdleTaskMemory
+<LI><a href="#[148]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xPortStartScheduler
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreateStatic
+</UL>
+<BR>[Called By]<UL><LI><a href="#[118]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osKernelStart
+</UL>
+
+<P><STRONG><a name="[135]"></a>vTaskSuspendAll</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, tasks.o(i.vTaskSuspendAll))
+<BR><BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortGetHeapStats
+</UL>
+
+<P><STRONG><a name="[75]"></a>vTaskSwitchContext</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, tasks.o(i.vTaskSwitchContext))
+<BR><BR>[Called By]<UL><LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+
+<P><STRONG><a name="[41]"></a>wirelessTask</STRONG> (Thumb, 188 bytes, Stack size 48 bytes, sx126x_example_recive.o(i.wirelessTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = wirelessTask &rArr; vTaskDelayUntil &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> freertos.o(i.startTask)
+</UL>
+<P><STRONG><a name="[40]"></a>wirelessTxTask</STRONG> (Thumb, 406 bytes, Stack size 72 bytes, wireless.o(i.wirelessTxTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 184<LI>Call Chain = wirelessTxTask &rArr; xQueueReceive &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[13c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
+<LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> freertos.o(i.startTask)
+</UL>
+<P><STRONG><a name="[148]"></a>xPortStartScheduler</STRONG> (Thumb, 154 bytes, Stack size 16 bytes, port.o(i.xPortStartScheduler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xPortStartScheduler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortSetupTimerInterrupt
+<LI><a href="#[14b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__asm___6_port_c_39a90d8d__prvStartFirstTask
+</UL>
+<BR>[Called By]<UL><LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
+</UL>
+
+<P><STRONG><a name="[bc]"></a>xQueueGenericCreate</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, queue.o(i.xQueueGenericCreate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = xQueueGenericCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewQueue
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_FREERTOS_Init
+</UL>
+
+<P><STRONG><a name="[12c]"></a>xQueueGenericReset</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, queue.o(i.xQueueGenericReset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = xQueueGenericReset &rArr; xTaskRemoveFromEventList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInitialise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewQueue
+</UL>
+
+<P><STRONG><a name="[13f]"></a>xQueueGenericSend</STRONG> (Thumb, 346 bytes, Stack size 56 bytes, queue.o(i.xQueueGenericSend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = xQueueGenericSend &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCheckForTimeOut
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskPlaceOnEventList
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskInternalSetTimeOutState
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+<LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCopyDataToQueue
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetSchedulerState
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[149]"></a>xQueueReceive</STRONG> (Thumb, 308 bytes, Stack size 56 bytes, queue.o(i.xQueueReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = xQueueReceive &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[14e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCheckForTimeOut
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskPlaceOnEventList
+<LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskInternalSetTimeOutState
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+<LI><a href="#[130]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIsQueueEmpty
+<LI><a href="#[125]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCopyDataFromQueue
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[14c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetSchedulerState
+<LI><a href="#[135]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskSuspendAll
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTxTask
+</UL>
+
+<P><STRONG><a name="[14e]"></a>xTaskCheckForTimeOut</STRONG> (Thumb, 112 bytes, Stack size 24 bytes, tasks.o(i.xTaskCheckForTimeOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xTaskCheckForTimeOut
+</UL>
+<BR>[Calls]<UL><LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskInternalSetTimeOutState
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[11c]"></a>xTaskCreate</STRONG> (Thumb, 90 bytes, Stack size 56 bytes, tasks.o(i.xTaskCreate))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136 + Unknown Stack Size
+<LI>Call Chain = xTaskCreate &rArr; pvPortMalloc &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osThreadCreate
+<LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;startTask
+</UL>
+
+<P><STRONG><a name="[11b]"></a>xTaskCreateStatic</STRONG> (Thumb, 86 bytes, Stack size 40 bytes, tasks.o(i.xTaskCreateStatic))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88 + Unknown Stack Size
+<LI>Call Chain = xTaskCreateStatic &rArr; prvInitialiseNewTask &rArr; pxPortInitialiseStack
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvInitialiseNewTask
+<LI><a href="#[121]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvAddNewTaskToReadyList
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osThreadCreate
+<LI><a href="#[119]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
+</UL>
+
+<P><STRONG><a name="[14c]"></a>xTaskGetSchedulerState</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, tasks.o(i.xTaskGetSchedulerState))
+<BR><BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[13c]"></a>xTaskGetTickCount</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, tasks.o(i.xTaskGetTickCount))
+<BR><BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTxTask
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wirelessTask
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;updateStateTask
+</UL>
+
+<P><STRONG><a name="[114]"></a>xTaskIncrementTick</STRONG> (Thumb, 194 bytes, Stack size 24 bytes, tasks.o(i.xTaskIncrementTick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvResetNextTaskUnblockTime
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[128]"></a>xTaskPriorityDisinherit</STRONG> (Thumb, 144 bytes, Stack size 16 bytes, tasks.o(i.xTaskPriorityDisinherit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = xTaskPriorityDisinherit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[127]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvCopyDataToQueue
+</UL>
+
+<P><STRONG><a name="[132]"></a>xTaskRemoveFromEventList</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, tasks.o(i.xTaskRemoveFromEventList))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = xTaskRemoveFromEventList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+<LI><a href="#[131]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvUnlockQueue
+</UL>
+
+<P><STRONG><a name="[138]"></a>xTaskResumeAll</STRONG> (Thumb, 182 bytes, Stack size 32 bytes, tasks.o(i.xTaskResumeAll))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+<LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvResetNextTaskUnblockTime
+<LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+<LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+<LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+<LI><a href="#[13d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortGetHeapStats
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[ae]"></a>TIM_ITRx_SetConfig</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, stm32f1xx_hal_tim.o(i.TIM_ITRx_SetConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_ConfigClockSource
+</UL>
+
+<P><STRONG><a name="[ac]"></a>TIM_TI1_ConfigInputStage</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, stm32f1xx_hal_tim.o(i.TIM_TI1_ConfigInputStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM_TI1_ConfigInputStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_ConfigClockSource
+</UL>
+
+<P><STRONG><a name="[ad]"></a>TIM_TI2_ConfigInputStage</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f1xx_hal_tim.o(i.TIM_TI2_ConfigInputStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = TIM_TI2_ConfigInputStage
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_ConfigClockSource
+</UL>
+
+<P><STRONG><a name="[92]"></a>DMA_SetConfig</STRONG> (Thumb, 42 bytes, Stack size 12 bytes, stm32f1xx_hal_dma.o(i.DMA_SetConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = DMA_SetConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_DMA_Start_IT
+</UL>
+
+<P><STRONG><a name="[9f]"></a>__NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.__NVIC_SetPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+
+<P><STRONG><a name="[a7]"></a>SPI_EndRxTxTransaction</STRONG> (Thumb, 52 bytes, Stack size 24 bytes, stm32f1xx_hal_spi.o(i.SPI_EndRxTxTransaction))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+
+<P><STRONG><a name="[f4]"></a>SPI_WaitFlagStateUntilTimeout</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, stm32f1xx_hal_spi.o(i.SPI_WaitFlagStateUntilTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPI_WaitFlagStateUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+</UL>
+
+<P><STRONG><a name="[125]"></a>prvCopyDataFromQueue</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, queue.o(i.prvCopyDataFromQueue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvCopyDataFromQueue
+</UL>
+<BR>[Calls]<UL><LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+</UL>
+
+<P><STRONG><a name="[127]"></a>prvCopyDataToQueue</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, queue.o(i.prvCopyDataToQueue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = prvCopyDataToQueue &rArr; xTaskPriorityDisinherit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[128]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskPriorityDisinherit
+<LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[12b]"></a>prvInitialiseNewQueue</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, queue.o(i.prvInitialiseNewQueue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = prvInitialiseNewQueue &rArr; xQueueGenericReset &rArr; xTaskRemoveFromEventList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericReset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericCreate
+</UL>
+
+<P><STRONG><a name="[130]"></a>prvIsQueueEmpty</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, queue.o(i.prvIsQueueEmpty))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = prvIsQueueEmpty
+</UL>
+<BR>[Calls]<UL><LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+</UL>
+
+<P><STRONG><a name="[131]"></a>prvUnlockQueue</STRONG> (Thumb, 106 bytes, Stack size 24 bytes, queue.o(i.prvUnlockQueue))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = prvUnlockQueue &rArr; xTaskRemoveFromEventList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[132]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskRemoveFromEventList
+<LI><a href="#[133]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskMissedYield
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Called By]<UL><LI><a href="#[149]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[13f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueGenericSend
+</UL>
+
+<P><STRONG><a name="[11d]"></a>prvAddCurrentTaskToDelayedList</STRONG> (Thumb, 102 bytes, Stack size 24 bytes, tasks.o(i.prvAddCurrentTaskToDelayedList))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = prvAddCurrentTaskToDelayedList &rArr; vListInsert
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[120]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsert
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+</UL>
+<BR>[Called By]<UL><LI><a href="#[144]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelayUntil
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelay
+<LI><a href="#[146]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskPlaceOnEventList
+</UL>
+
+<P><STRONG><a name="[121]"></a>prvAddNewTaskToReadyList</STRONG> (Thumb, 194 bytes, Stack size 24 bytes, tasks.o(i.prvAddNewTaskToReadyList))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = prvAddNewTaskToReadyList
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInsertEnd
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+<LI><a href="#[123]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInitialise
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreateStatic
+</UL>
+
+<P><STRONG><a name="[129]"></a>prvDeleteTCB</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, tasks.o(i.prvDeleteTCB))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = prvDeleteTCB &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvIdleTask
+</UL>
+
+<P><STRONG><a name="[42]"></a>prvIdleTask</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, tasks.o(i.prvIdleTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = prvIdleTask &rArr; prvDeleteTCB &rArr; vPortFree &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
+</UL>
+<BR>[Calls]<UL><LI><a href="#[129]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvDeleteTCB
+<LI><a href="#[11e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uxListRemove
+<LI><a href="#[124]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortExitCritical
+<LI><a href="#[122]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortEnterCritical
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> tasks.o(i.vTaskStartScheduler)
+</UL>
+<P><STRONG><a name="[12d]"></a>prvInitialiseNewTask</STRONG> (Thumb, 176 bytes, Stack size 40 bytes, tasks.o(i.prvInitialiseNewTask))
+<BR><BR>[Stack]<UL><LI>Max Depth = 48 + Unknown Stack Size
+<LI>Call Chain = prvInitialiseNewTask &rArr; pxPortInitialiseStack
+</UL>
+<BR>[Calls]<UL><LI><a href="#[12f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pxPortInitialiseStack
+<LI><a href="#[12e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vListInitialiseItem
+<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memset
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreate
+<LI><a href="#[11b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskCreateStatic
+</UL>
+
+<P><STRONG><a name="[145]"></a>prvResetNextTaskUnblockTime</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, tasks.o(i.prvResetNextTaskUnblockTime))
+<BR><BR>[Called By]<UL><LI><a href="#[13b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskDelete
+<LI><a href="#[114]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskIncrementTick
+<LI><a href="#[138]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskResumeAll
+</UL>
+
+<P><STRONG><a name="[11a]"></a>makeFreeRtosPriority</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, cmsis_os.o(i.makeFreeRtosPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;osThreadCreate
+</UL>
+
+<P><STRONG><a name="[136]"></a>prvHeapInit</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, heap_4.o(i.prvHeapInit))
+<BR><BR>[Called By]<UL><LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+</UL>
+
+<P><STRONG><a name="[137]"></a>prvInsertBlockIntoFreeList</STRONG> (Thumb, 72 bytes, Stack size 12 bytes, heap_4.o(i.prvInsertBlockIntoFreeList))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = prvInsertBlockIntoFreeList
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vPortFree
+<LI><a href="#[134]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pvPortMalloc
+</UL>
+
+<P><STRONG><a name="[3e]"></a>prvTaskExitError</STRONG> (Thumb, 36 bytes, Stack size 0 bytes, port.o(i.prvTaskExitError))
+<BR>[Address Reference Count : 1]<UL><LI> port.o(i.pxPortInitialiseStack)
+</UL>
+<P><STRONG><a name="[e8]"></a>RadioGetFskBandwidthRegValue</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, radio.o(i.RadioGetFskBandwidthRegValue))
+<BR><BR>[Called By]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetTxConfig
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioSetRxConfig
+</UL>
+
+<P><STRONG><a name="[f2]"></a>RadioGetLoRaTimeOnAirNumerator</STRONG> (Thumb, 122 bytes, Stack size 20 bytes, radio.o(i.RadioGetLoRaTimeOnAirNumerator))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = RadioGetLoRaTimeOnAirNumerator
+</UL>
+<BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RadioTimeOnAir
+</UL>
+
+<P><STRONG><a name="[10d]"></a>SX126xConvertFreqInHzToPllStep</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, sx126x.o(i.SX126xConvertFreqInHzToPllStep))
+<BR><BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetRfFrequency
+<LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SX126xSetModulationParams
+</UL>
+
+<P><STRONG><a name="[44]"></a>SX126xOnRxDone</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x_example_recive.o(i.SX126xOnRxDone))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SX126xOnRxDone
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> sx126x_example_recive.o(i.wirelessTask)
+</UL>
+<P><STRONG><a name="[47]"></a>SX126xOnRxError</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x_example_recive.o(i.SX126xOnRxError))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SX126xOnRxError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> sx126x_example_recive.o(i.wirelessTask)
+</UL>
+<P><STRONG><a name="[46]"></a>SX126xOnRxTimeout</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x_example_recive.o(i.SX126xOnRxTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SX126xOnRxTimeout
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> sx126x_example_recive.o(i.wirelessTask)
+</UL>
+<P><STRONG><a name="[43]"></a>SX126xOnTxDone</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, sx126x_example_recive.o(i.SX126xOnTxDone))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = SX126xOnTxDone
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> sx126x_example_recive.o(i.wirelessTask)
+</UL>
+<P><STRONG><a name="[45]"></a>SX126xOnTxTimeout</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, sx126x_example_recive.o(i.SX126xOnTxTimeout))
+<BR>[Address Reference Count : 1]<UL><LI> sx126x_example_recive.o(i.wirelessTask)
+</UL><P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

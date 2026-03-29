@@ -1,0 +1,16 @@
+Added Component: Designator=CH1(HDR2.54-LI-3P)
+Added Component: Designator=CH2(HDR2.54-LI-3P)
+Added Component: Designator=CH3(HDR2.54-LI-3P)
+Added Component: Designator=CH4(HDR2.54-LI-3P)
+Added Pin To Net: NetName=TIM8_CH1 Pin=CH1-1
+Added Pin To Net: NetName=GND Pin=CH1-3
+Added Pin To Net: NetName=TIM8_CH2 Pin=CH2-1
+Added Pin To Net: NetName=GND Pin=CH2-3
+Added Pin To Net: NetName=TIM8_CH3 Pin=CH3-1
+Added Pin To Net: NetName=GND Pin=CH3-3
+Added Pin To Net: NetName=TIM8_CH4 Pin=CH4-1
+Added Pin To Net: NetName=GND Pin=CH4-3
+Added Member To Class: ClassName=MCU Member=Component CH1 CON3
+Added Member To Class: ClassName=MCU Member=Component CH2 CON3
+Added Member To Class: ClassName=MCU Member=Component CH3 CON3
+Added Member To Class: ClassName=MCU Member=Component CH4 CON3

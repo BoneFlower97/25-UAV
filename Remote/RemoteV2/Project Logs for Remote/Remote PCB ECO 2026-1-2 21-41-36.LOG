@@ -1,0 +1,53 @@
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Change Component Footprint: Designator=SW? Old Footprint=TSW SMD-6*6*5 New Footprint=TSW SMD-6*6*5-L
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetJ?_2" already exists
+Add Net: Net with name "NetJ?_2" already exists
+Add Net: Net with name "NetJ?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 4.7uF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=MCU Member=Component JP? HDR-1X4
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component R? NC
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5

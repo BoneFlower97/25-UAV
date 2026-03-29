@@ -1,0 +1,167 @@
+Add Component: Footprint Not Found DO-27
+Add Component: Footprint Not Found DO-35
+Add Component: Footprint Not Found SMA-KE-LI
+Add Component: Footprint Not Found CD31
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Added Component: Designator=Q1(TDSON-8_L5.9-W5.2-P1.27-BL)
+Add component (AddParameter): Name = "BOM名称"; Value = "P沟道场效应管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found TO220A
+Added Component: Designator=Q3(TDSON-8_L5.9-W5.2-P1.27-BL)
+Add component (AddParameter): Name = "BOM名称"; Value = "P沟道场效应管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=Q4(TDSON-8_L5.9-W5.2-P1.27-BL)
+Add component (AddParameter): Name = "BOM名称"; Value = "P沟道场效应管"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Add Component: Footprint Not Found LGA-16_L3.0-W3.0-P0.50-BL
+Add Component: Footprint Not Found LGA-8_L2.5-W2.0-P0.65_AMP6127
+Add Component: Footprint Not Found SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Add Component: Footprint Not Found OSC 1612-4P
+Add Component: Footprint Not Found OSC 1612-4P
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin DZ1-1
+Add Pin To Net: Unknown Pin: Pin DZ1-2
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin J2-1
+Add Pin To Net: Unknown Pin: Pin J2-2
+Add Pin To Net: Unknown Pin: Pin J2-3
+Add Pin To Net: Unknown Pin: Pin J2-4
+Add Pin To Net: Unknown Pin: Pin JP1-1
+Add Pin To Net: Unknown Pin: Pin JP1-2
+Add Pin To Net: Unknown Pin: Pin JP1-3
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin L5-1
+Add Pin To Net: Unknown Pin: Pin L5-2
+Add Pin To Net: Unknown Pin: Pin L6-1
+Add Pin To Net: Unknown Pin: Pin L6-2
+Add Pin To Net: Unknown Pin: Pin L7-1
+Add Pin To Net: Unknown Pin: Pin L7-2
+Add Pin To Net: Unknown Pin: Pin LED1-1
+Add Pin To Net: Unknown Pin: Pin LED1-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Add Pin To Net: Unknown Pin: Pin LED3-1
+Add Pin To Net: Unknown Pin: Pin LED3-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=12V Pin=Q1-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Add Pin To Net: Unknown Pin: Pin Q2-1
+Add Pin To Net: Unknown Pin: Pin Q2-2
+Add Pin To Net: Unknown Pin: Pin Q2-3
+Added Pin To Net: NetName=NetQ3_1 Pin=Q3-1
+Added Pin To Net: NetName=12V Pin=Q3-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q3-3
+Added Pin To Net: NetName=NetQ4_1 Pin=Q4-1
+Added Pin To Net: NetName=12V Pin=Q4-2
+Added Pin To Net: NetName=NetQ1_3 Pin=Q4-3
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U7-1
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-4
+Add Pin To Net: Unknown Pin: Pin U7-A1B12
+Add Pin To Net: Unknown Pin: Pin U7-A4B9
+Add Pin To Net: Unknown Pin: Pin U7-A6
+Add Pin To Net: Unknown Pin: Pin U7-A7
+Add Pin To Net: Unknown Pin: Pin U7-B1A12
+Add Pin To Net: Unknown Pin: Pin U7-B4A9
+Add Pin To Net: Unknown Pin: Pin U7-B6
+Add Pin To Net: Unknown Pin: Pin X1-1
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Pin To Net: Unknown Pin: Pin X1-3
+Add Pin To Net: Unknown Pin: Pin X1-4
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Pin To Net: Unknown Pin: Pin X2-3
+Add Pin To Net: Unknown Pin: Pin X2-4
+Add Class Member: Failed to add class member : Component D1 SR540
+Add Class Member: Failed to add class member : Component DZ1 1N5256
+Add Class Member: Failed to add class member : Component J1 CON4
+Add Class Member: Failed to add class member : Component J2 CON4
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Add Class Member: Failed to add class member : Component JP1 天线接口
+Add Class Member: Failed to add class member : Component L1 6.8uH
+Add Class Member: Failed to add class member : Component L2
+Add Class Member: Failed to add class member : Component L3
+Add Class Member: Failed to add class member : Component L4
+Add Class Member: Failed to add class member : Component L5
+Add Class Member: Failed to add class member : Component L6
+Add Class Member: Failed to add class member : Component L7 10uH
+Add Class Member: Failed to add class member : Component LED1 红色
+Add Class Member: Failed to add class member : Component LED2 白色
+Add Class Member: Failed to add class member : Component LED3 绿色
+Added Member To Class: ClassName=POWER Member=Component Q1 AON6407-MS
+Add Class Member: Failed to add class member : Component Q2 2N7002
+Added Member To Class: ClassName=POWER Member=Component Q3 AON6407-MS
+Added Member To Class: ClassName=POWER Member=Component Q4 AON6407-MS
+Add Class Member: Failed to add class member : Component U1 ME6212C33M5G
+Add Class Member: Failed to add class member : Component U2 ME3116
+Add Class Member: Failed to add class member : Component U3 ICM-20602
+Add Class Member: Failed to add class member : Component U4 BMP280
+Add Class Member: Failed to add class member : Component U6 PE4259-63
+Add Class Member: Failed to add class member : Component U7 GT-USB-7010ASV
+Add Class Member: Failed to add class member : Component X1 32M
+Add Class Member: Failed to add class member : Component X2 8M

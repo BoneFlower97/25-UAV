@@ -1,0 +1,9 @@
+master_v04\sx126x.o: COMMUNICATE\Src\sx126x.c
+master_v04\sx126x.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\string.h
+master_v04\sx126x.o: ./COMMUNICATE/Inc/radio.h
+master_v04\sx126x.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdint.h
+master_v04\sx126x.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdbool.h
+master_v04\sx126x.o: ./COMMUNICATE/Inc/sx126x.h
+master_v04\sx126x.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\math.h
+master_v04\sx126x.o: ./COMMUNICATE/Inc/radio.h
+master_v04\sx126x.o: ./COMMUNICATE/Inc/sx126x-board.h

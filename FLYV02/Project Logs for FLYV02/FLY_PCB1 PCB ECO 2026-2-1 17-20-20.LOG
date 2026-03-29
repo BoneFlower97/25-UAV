@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=BUSY Pin=U4-10
+Added Pin To Net: NetName=BUSY Pin=R19-1
+Added Pin To Net: NetName=BUSY Pin=U7-41
+Change Net Name : Old Net Name=M0 New Net Name=DIO1
+Added Pin To Net: NetName=NetR19_2 Pin=R19-2
+Added Pin To Net: NetName=NetR19_2 Pin=U4-10
+Added Net: Name=NetR19_2
+Added Pin To Net: NetName=NetR20_2 Pin=R20-2
+Added Pin To Net: NetName=NetR20_2 Pin=U4-6
+Added Net: Name=NetR20_2
+Added Member To Class: ClassName=COMMUNICATION Member=Component R48 0R

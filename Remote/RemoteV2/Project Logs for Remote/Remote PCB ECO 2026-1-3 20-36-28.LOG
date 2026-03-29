@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetR7_1 Pin=R7-1
+Removed Pin From Net: NetName=NetR14_1 Pin=R14-1
+Add Component: Footprint Not Found bell
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=NetR14_1 Pin=R7-1
+Added Pin To Net: NetName=NetR7_1 Pin=R14-1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR14_1 New Net Name=NetR7_1
+Add Class Member: Failed to add class member : Component b1 BELL

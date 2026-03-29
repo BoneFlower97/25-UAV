@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=5V Pin=E2-1
+Add Component: Footprint Not Found bell
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=3v3 Pin=E2-1
+Add Class Member: Failed to add class member : Component b1 BELL

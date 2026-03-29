@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetR12_1 Pin=SW4-3
+Removed Pin From Net: NetName=KEY4 Pin=SW4-4
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0

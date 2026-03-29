@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=12V Pin=Q3-2
+Removed Pin From Net: NetName=12V_COM Pin=R4-1
+Removed Pin From Net: NetName=12V_COM Pin=R8-1
+Removed Pin From Net: NetName=12V_COM Pin=R11-1
+Removed Member From Class: ClassName=POWER Member=R8
+Removed Member From Class: ClassName=POWER Member=R11
+Change Component Comment : Designator=R1 Old Comment=10K New Comment=100K
+Change Component Comment : Designator=R4 Old Comment=100K New Comment=10K
+Added Pin To Net: NetName=12V_COM Pin=Q1-4
+Added Pin To Net: NetName=12V_COM Pin=Q2-4
+Added Pin To Net: NetName=12V_COM Pin=Q4-4
+Added Pin To Net: NetName=12V Pin=R4-2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_2 Pin=R4-1
+Added Net: Name=NetQ3_2

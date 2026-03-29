@@ -1,0 +1,12 @@
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+master_v04\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdlib.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+master_v04\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stddef.h
+master_v04\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdint.h
+master_v04\list.o: ../Core/Inc/FreeRTOSConfig.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+master_v04\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

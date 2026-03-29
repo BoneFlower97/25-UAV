@@ -1,0 +1,12 @@
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+sever_v02\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdlib.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+sever_v02\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stddef.h
+sever_v02\list.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdint.h
+sever_v02\list.o: ../Core/Inc/FreeRTOSConfig.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+sever_v02\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

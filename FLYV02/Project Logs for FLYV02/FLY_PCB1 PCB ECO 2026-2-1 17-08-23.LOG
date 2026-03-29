@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetQ3_2 Pin=Q3-2
+Removed Pin From Net: NetName=GND Pin=Q3-3
+Added Pin To Net: NetName=GND Pin=Q3-2
+Added Pin To Net: NetName=NetQ3_2 Pin=Q3-3
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R

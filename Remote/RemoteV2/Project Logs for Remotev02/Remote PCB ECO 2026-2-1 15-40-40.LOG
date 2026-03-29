@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=GND Pin=JP2-1
+Removed Pin From Net: NetName=RESET Pin=U1-21
+Removed Member From Class: ClassName=MCU Member=JP2
+Change Footprint: Footprint Not Found Model Name
+Change Component Comment : Designator=R2 Old Comment=47R New Comment=0R
+Change Component Comment : Designator=R3 Old Comment=47R New Comment=0R
+Added Component: Designator=C?(C 0603_L)
+Added Component: Designator=C?(C 0805_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Pin To Net: NetName=3V3_Lora Pin=C?-1
+Added Pin To Net: NetName=3V3_Lora Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=SPI1_MISO Pin=R?-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=R?-1
+Added Pin To Net: NetName=SPI1_SCK Pin=R?-1
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Add Pin To Net: Unknown Pin: Pin SW9-0
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=3V3_Lora Pin=U?-3
+Added Pin To Net: NetName=BUSY Pin=R3-2
+Added Pin To Net: NetName=BUSY Pin=U?-10
+Added Net: Name=BUSY
+Added Pin To Net: NetName=DIO1 Pin=R2-2
+Added Pin To Net: NetName=DIO1 Pin=U?-6
+Added Net: Name=DIO1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U?-15
+Added Net: Name=NetR?_2
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Pin To Net: NetName=SX1268_CS Pin=R?-1
+Added Pin To Net: NetName=SX1268_CS Pin=U1-21
+Added Net: Name=SX1268_CS
+Added Member To Class: ClassName=COMMUNICATION Member=Component C? 100nF
+Added Member To Class: ClassName=COMMUNICATION Member=Component C? 4.7uF
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R

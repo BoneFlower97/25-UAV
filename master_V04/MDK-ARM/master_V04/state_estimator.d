@@ -1,0 +1,9 @@
+master_v04\state_estimator.o: FLIGHT\Src\state_estimator.c
+master_v04\state_estimator.o: ./FLIGHT/Inc/state_estimator.h
+master_v04\state_estimator.o: ./FLIGHT/Inc/stabilizer_types.h
+master_v04\state_estimator.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdbool.h
+master_v04\state_estimator.o: ./FLIGHT/Inc/sensors_types.h
+master_v04\state_estimator.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\stdint.h
+master_v04\state_estimator.o: ./FLIGHT/Inc/sensfusion6.h
+master_v04\state_estimator.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\math.h
+master_v04\state_estimator.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin\..\include\string.h

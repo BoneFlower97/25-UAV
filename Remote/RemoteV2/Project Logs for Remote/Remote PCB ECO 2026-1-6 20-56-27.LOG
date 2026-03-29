@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=GND Pin=J1-5
+Removed Pin From Net: NetName=NetJ1_4 Pin=R4-2
+Removed Pin From Net: NetName=NetJ1_3 Pin=R5-2
+Change Comment: Unknown Component : J1
+Change Component Designator: OldDesignator=LED? NewDesignator=LED2
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Added Component: Designator=R31(R 0603_L)
+Added Component: Designator=R32(R 0603_L)
+Added Component: Designator=R33(R 0603_L)
+Added Component: Designator=R34(R 0603_L)
+Added Component: Designator=R35(R 0603_L)
+Added Component: Designator=R36(R 0603_L)
+Add Pin To Net: Unknown Pin: Pin J1-2
+Added Pin To Net: NetName=3v3 Pin=R31-1
+Added Pin To Net: NetName=3v3 Pin=R33-1
+Added Pin To Net: NetName=NetJ1_4 Pin=R35-2
+Added Pin To Net: NetName=NetJ1_3 Pin=R36-2
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Change Net Name : Old Net Name=NetLED?_1 New Net Name=NetLED2_1
+Added Pin To Net: NetName=DS/RS Pin=R34-1
+Added Pin To Net: NetName=DS/RS Pin=U1-19
+Added Net: Name=DS/RS
+Added Pin To Net: NetName=LCD_LED Pin=R31-2
+Added Pin To Net: NetName=LCD_LED Pin=R32-1
+Added Pin To Net: NetName=LCD_LED Pin=U1-18
+Added Net: Name=LCD_LED
+Added Pin To Net: NetName=NetJ1_5 Pin=R34-2
+Added Net: Name=NetJ1_5
+Added Pin To Net: NetName=NetJ1_6 Pin=R6-2
+Added Net: Name=NetJ1_6
+Added Pin To Net: NetName=NetJ1_7 Pin=R4-2
+Added Net: Name=NetJ1_7
+Added Pin To Net: NetName=NetJ1_8 Pin=R32-2
+Added Net: Name=NetJ1_8
+Added Pin To Net: NetName=NetJ1_9 Pin=R5-2
+Added Net: Name=NetJ1_9
+Added Pin To Net: NetName=RESET Pin=R33-2
+Added Pin To Net: NetName=RESET Pin=R35-1
+Added Pin To Net: NetName=RESET Pin=U1-21
+Added Net: Name=RESET
+Added Pin To Net: NetName=SPI1_CS Pin=R1-1
+Added Pin To Net: NetName=SPI1_CS Pin=R36-1
+Added Pin To Net: NetName=SPI1_CS Pin=U1-20
+Added Net: Name=SPI1_CS
+Added Member To Class: ClassName=MCU Member=Component R31 10k
+Added Member To Class: ClassName=MCU Member=Component R32 0R
+Added Member To Class: ClassName=MCU Member=Component R33 10k
+Added Member To Class: ClassName=MCU Member=Component R34 0R
+Added Member To Class: ClassName=MCU Member=Component R35 0R
+Added Member To Class: ClassName=MCU Member=Component R36 0R

@@ -1,0 +1,41 @@
+Add Component: Footprint Not Found bell
+Added Component: Designator=J?(HDR2.54-Y-LI-5P)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=GND Pin=J?-5
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=5V Pin=R?-2
+Added Pin To Net: NetName=NetJ?_1 Pin=J?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=R?-1
+Added Pin To Net: NetName=NetJ?_1 Pin=R?-1
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=R?-2
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetJ?_3 Pin=J?-3
+Added Pin To Net: NetName=NetJ?_3 Pin=R?-2
+Added Net: Name=NetJ?_3
+Added Pin To Net: NetName=NetJ?_4 Pin=J?-4
+Added Pin To Net: NetName=NetJ?_4 Pin=R?-2
+Added Net: Name=NetJ?_4
+Added Pin To Net: NetName=SPI1_MISO Pin=R?-1
+Added Pin To Net: NetName=SPI1_MISO Pin=U1-16
+Added Net: Name=SPI1_MISO
+Added Pin To Net: NetName=SPI1_MOSI Pin=R?-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=U1-17
+Added Net: Name=SPI1_MOSI
+Added Pin To Net: NetName=SPI1_SCK Pin=R?-1
+Added Pin To Net: NetName=SPI1_SCK Pin=U1-15
+Added Net: Name=SPI1_SCK
+Add Class Member: Failed to add class member : Component b1 BELL
+Added Member To Class: ClassName=MCU Member=Component J? CON5
+Added Member To Class: ClassName=MCU Member=Component R? 0R
+Added Member To Class: ClassName=MCU Member=Component R? 0R
+Added Member To Class: ClassName=MCU Member=Component R? 0R
+Added Member To Class: ClassName=MCU Member=Component R? 0R
+Added Member To Class: ClassName=MCU Member=Component R? 0R

@@ -1,0 +1,130 @@
+Protel Design System Design Rule Check
+PCB File : F:\PROGRAM\no_man_fly\PCB\FLYV02\FLY_PCB1.PcbDoc
+Date     : 2026/2/1
+Time     : 18:21:00
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('GND_L01_P003')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('GND_L01_P004')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mm) (OnLayer('Mechanical 1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mm) (OnLayer('Keep-Out Layer')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.26mm) (InNamedPolygon('GND_L01_P004')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('GND_L01_P003')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P003')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GND_L01_P003')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.26mm) (InNamedPolygon('GND_L01_P005')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('GND_L02_P007')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('GND_L01_P006')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U4-1(94.5mm,92.9mm) on Top Layer And Pad U4-1/1(94.5mm,91.9mm) on Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad U4-1/1(94.5mm,91.9mm) on Top Layer And Track (94.5mm,92.9mm)(94.5mm,97.4mm) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('NONET_L01_P008')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('GND_L01_P007')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.8mm) (InNamedPolygon('GND_L01_P006')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.27mm) (InNamedPolygon('GND_L01_P005')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('3V3_ICM_L01_P002')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.3mm) (InNamedPolygon('GND_L01_P006')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.5mm) (InNamedPolygon('GND_L01_P006')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad U4-1(94.5mm,92.9mm) on Top Layer And Pad U4-1/1(94.5mm,91.9mm) on Top Layer Location : [X = 148.729mm][Y = 162.354mm]
+   Violation between Short-Circuit Constraint: Between Pad U4-1/1(94.5mm,91.9mm) on Top Layer And Track (94.5mm,92.9mm)(94.5mm,97.4mm) on Top Layer Location : [X = 148.729mm][Y = 162.377mm]
+Rule Violations :2
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=10mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.15mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.044mm < 0.15mm) Between Area Fill (3mm,26.6mm) (8mm,31.6mm) on Top Solder And Via (2.771mm,26.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.044mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.1492mm (5.8741mil) < 0.15mm (5.9055mil)) Between Pad CH3-2(94.74mm,51.3mm) on Multi-Layer And Via (95.771mm,50.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.149mm] / [Bottom Solder] Mask Sliver [0.149mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.092mm < 0.15mm) Between Pad DZ1-1(30.14mm,31.332mm) on Top Layer And Via (29.771mm,32.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.092mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.118mm < 0.15mm) Between Pad E1-2(85.7mm,31.7mm) on Top Layer And Via (86.771mm,32.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.118mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.041mm < 0.15mm) Between Pad E2-2(50.165mm,23.377mm) on Top Layer And Via (49.271mm,23.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.041mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.121mm < 0.15mm) Between Pad J6-4(52.21mm,96.7mm) on Multi-Layer And Via (52.271mm,95.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.121mm] / [Bottom Solder] Mask Sliver [0.121mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.118mm < 0.15mm) Between Pad U7-16(13.3mm,80.3mm) on Top Layer And Via (14.771mm,80.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.118mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.118mm < 0.15mm) Between Pad U7-4(13.3mm,86.3mm) on Top Layer And Via (14.771mm,86.277mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.118mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.147mm < 0.15mm) Between Pad X1-3(7.6mm,85.8mm) on Top Layer And Via (8.8mm,85.1mm) from Top Layer to Bottom Layer [Top Solder] Mask Sliver [0.147mm]
+Rule Violations :9
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 13
+Waived Violations : 0
+Time Elapsed        : 00:00:01

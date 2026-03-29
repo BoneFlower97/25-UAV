@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=KEY2 Pin=SW2-1
+Removed Pin From Net: NetName=NetR7_1 Pin=SW2-2
+Removed Pin From Net: NetName=NetR7_1 Pin=SW2-3
+Removed Pin From Net: NetName=KEY2 Pin=SW2-4
+Removed Pin From Net: NetName=KEY3 Pin=SW3-1
+Removed Pin From Net: NetName=KEY3 Pin=SW3-4
+Removed Pin From Net: NetName=KEY4 Pin=SW4-1
+Removed Pin From Net: NetName=NetR7_1 Pin=SW4-2
+Removed Pin From Net: NetName=NetR7_1 Pin=SW4-3
+Removed Pin From Net: NetName=KEY4 Pin=SW4-4
+Removed Pin From Net: NetName=NetR14_1 Pin=SW5-1
+Removed Pin From Net: NetName=KEY1 Pin=SW5-2
+Removed Pin From Net: NetName=KEY1 Pin=SW5-3
+Removed Pin From Net: NetName=NetR14_1 Pin=SW5-4
+Removed Pin From Net: NetName=KEY2 Pin=SW6-2
+Removed Pin From Net: NetName=KEY2 Pin=SW6-3
+Removed Pin From Net: NetName=NetR14_1 Pin=SW7-1
+Removed Pin From Net: NetName=KEY3 Pin=SW7-2
+Removed Pin From Net: NetName=KEY3 Pin=SW7-3
+Removed Pin From Net: NetName=NetR14_1 Pin=SW7-4
+Removed Pin From Net: NetName=3v3 Pin=V1-
+Add Component: Footprint Not Found bell
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=NetR14_1 Pin=SW2-1
+Added Pin To Net: NetName=KEY1 Pin=SW2-2
+Added Pin To Net: NetName=KEY1 Pin=SW2-3
+Added Pin To Net: NetName=NetR14_1 Pin=SW2-4
+Added Pin To Net: NetName=KEY2 Pin=SW3-1
+Added Pin To Net: NetName=KEY2 Pin=SW3-4
+Added Pin To Net: NetName=NetR14_1 Pin=SW4-1
+Added Pin To Net: NetName=KEY2 Pin=SW4-2
+Added Pin To Net: NetName=KEY2 Pin=SW4-3
+Added Pin To Net: NetName=NetR14_1 Pin=SW4-4
+Added Pin To Net: NetName=KEY3 Pin=SW5-1
+Added Pin To Net: NetName=NetR7_1 Pin=SW5-2
+Added Pin To Net: NetName=NetR7_1 Pin=SW5-3
+Added Pin To Net: NetName=KEY3 Pin=SW5-4
+Added Pin To Net: NetName=KEY3 Pin=SW6-2
+Added Pin To Net: NetName=KEY3 Pin=SW6-3
+Added Pin To Net: NetName=KEY4 Pin=SW7-1
+Added Pin To Net: NetName=NetR7_1 Pin=SW7-2
+Added Pin To Net: NetName=NetR7_1 Pin=SW7-3
+Added Pin To Net: NetName=KEY4 Pin=SW7-4
+Add Class Member: Failed to add class member : Component b1 BELL

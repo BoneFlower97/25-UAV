@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=3V3_Lora Pin=C14-1
+Removed Pin From Net: NetName=3V3_Lora Pin=R17-2
+Removed Pin From Net: NetName=AUX Pin=R21-2
+Removed Pin From Net: NetName=RX1 Pin=U4-2
+Removed Pin From Net: NetName=GND Pin=U4-14
+Removed Pin From Net: NetName=3V3_Lora Pin=U4-15
+Removed Pin From Net: NetName=TX1 Pin=U4-21
+Removed Pin From Net: NetName=GND Pin=U4-28
+Removed Pin From Net: NetName=NetJP1_1 Pin=U4-29
+Removed Pin From Net: NetName=GND Pin=U4-30
+Removed Member From Class: ClassName=COMMUNICATION Member=C14
+Removed Member From Class: ClassName=COMMUNICATION Member=R17
+Removed Member From Class: ClassName=COMMUNICATION Member=R21
+Removed Member From Class: ClassName=COMMUNICATION Member=U4
+Change Component Comment : Designator=R2 Old Comment= New Comment=1.8k
+Change Component Comment : Designator=R6 Old Comment= New Comment=300R
+Change Component Comment : Designator=C8 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C10 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C11 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C12 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C15 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C17 Old Comment=0.1uF New Comment=100nF
+Change Component Comment : Designator=C1 Old Comment=104 New Comment=100nF
+Change Component Comment : Designator=C2 Old Comment=104 New Comment=100nF
+Added Component: Designator=C?(C 0805_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=R?(R 0603_L)
+Added Component: Designator=U?(RA-01SCH-P-TJFZ)
+Add component (AddParameter): Name = "AddInBom"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Antenna Type"; Value = "IPEX接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Channel ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ConvertToPcb"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://item.szlcsc.com/datasheet/Ra-01S/770920.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "Ra-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FootprintName"; Value = "COMM-SMD_RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Group ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface Type"; Value = "SPI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "Extended Part"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "两件套 LoRa 系列模块 两件套"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Ai-Thinker(安信可)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ManufacturerPart"; Value = "Ra-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelId"; Value = "bfb9ea955ff445c193018999188b6f80聨0819f05c4eef4c71ace90d822a990e87"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelName"; Value = "COMM-SMD_L17.0-W16.0-H3.2-RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ModelTransform"; Value = "629.92,669.29,0,0,0,0,0.001,0,0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modulation System"; Value = "LoRa；OOK；MSK；GFSK；FSK；GMSK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40℃~+85℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Power"; Value = "22dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Receive  Current"; Value = "4.5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reuse Block"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Send  Current"; Value = "140mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Sensitivity"; Value = "-140dBm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,17x16mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SupplierPart"; Value = "C724871"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "RA-01S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Supply"; Value = "3.3V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=3V3_Lora Pin=C?-2
+Added Pin To Net: NetName=NetC2_1 Pin=L1-1
+Added Pin To Net: NetName=SPI1_MISO Pin=R?-1
+Added Pin To Net: NetName=SPI1_MOSI Pin=R?-1
+Added Pin To Net: NetName=SPI1_SCK Pin=R?-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-6
+Added Pin To Net: NetName=NetJP1_1 Pin=U?-1
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=3V3_Lora Pin=U?-3
+Added Pin To Net: NetName=GND Pin=U?-9
+Added Pin To Net: NetName=GND Pin=U?-16
+Added Pin To Net: NetName=BUSY Pin=U?-10
+Added Net: Name=BUSY
+Added Pin To Net: NetName=DIO1 Pin=U?-6
+Added Net: Name=DIO1
+Added Pin To Net: NetName=NetR?_2 Pin=R?-2
+Added Pin To Net: NetName=NetR?_2 Pin=U?-14
+Added Net: Name=NetR?_2
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Pin To Net: NetName=SX1268_CS Pin=R?-1
+Added Net: Name=SX1268_CS
+Added Member To Class: ClassName=COMMUNICATION Member=Component C? 22uF
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component U? Ra-01S

@@ -1,0 +1,5 @@
+Added Component: Designator=J?(HDR2.54-LI-4P)
+Added Pin To Net: NetName=TX1 Pin=J?-2
+Added Pin To Net: NetName=RX1 Pin=J?-3
+Added Pin To Net: NetName=GND Pin=J?-4
+Added Member To Class: ClassName=MCU Member=Component J? CON4

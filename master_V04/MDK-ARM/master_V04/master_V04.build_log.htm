@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 Administrator, 123, LIC=X96CK-ZTJ51-9UQ4U-S11ZR-WNZ0B-PRAEB
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+F:\PROGRAM\no_man_fly\program\master_V04\MDK-ARM\master_V04.uvprojx
+Project File Date:  02/11/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Users\Administrator\AppData\Local\Keil_v5\ARM\AMCC\Bin'
+Build target 'master_V04'
+compiling state_control.c...
+./COMMON/Inc/global.h(89): warning:  #1295-D: Deprecated declaration SX126xTimerIrqHandler - give arg types
+  void SX126xTimerIrqHandler();
+FLIGHT\Src\state_control.c(153): warning:  #177-D: variable "yaw_meas"  was declared but never referenced
+          float yaw_meas   = state_con->attitude.yaw;    // Æ«º½½Ç¶È£¨¡ã£©
+FLIGHT\Src\state_control.c(229): warning:  #1-D: last line of file ends without a newline
+  }
+FLIGHT\Src\state_control.c(20): warning:  #550-D: variable "test1"  was set but never used
+  static float test1;
+FLIGHT\Src\state_control.c(21): warning:  #550-D: variable "test2"  was set but never used
+  static float test2;
+FLIGHT\Src\state_control.c(22): warning:  #550-D: variable "test3"  was set but never used
+  static float test3;
+FLIGHT\Src\state_control.c(23): warning:  #550-D: variable "test4"  was set but never used
+  static float test4;
+FLIGHT\Src\state_control.c(28): warning:  #177-D: variable "pid_yaw_angle"  was declared but never referenced
+  static pid_t pid_yaw_angle   = {.kp = 0.00f, .ki = 0.000f, .kd = 0.0f, .out_min = -30.0f, .out_max = 30.0f, .integral_limit = 40.0f, .deadband = 0.01f};
+FLIGHT\Src\state_control.c: 8 warnings, 0 errors
+linking...
+Program Size: Code=44956 RO-data=1696 RW-data=536 ZI-data=21152  
+FromELF: creating hex file...
+"master_V04\master_V04.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.2.0.pack
+                ARM::CMSIS@6.2.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.1.pack
+                Keil::STM32F4xx_DFP@3.1.1
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_master_V04
+  C:/Users/Administrator/AppData/Local/Arm/Packs/Keil/ARM/CMSIS/6.2.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.1
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

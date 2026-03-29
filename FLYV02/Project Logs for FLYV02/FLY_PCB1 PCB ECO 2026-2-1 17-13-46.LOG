@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=SPI1_MISO Pin=R?-1
+Removed Pin From Net: NetName=SPI1_MOSI Pin=R?-1
+Removed Pin From Net: NetName=SPI1_SCK Pin=R?-1
+Added Pin To Net: NetName=SPI2_MISO Pin=R?-1
+Added Pin To Net: NetName=SPI2_MOSI Pin=R?-1
+Added Pin To Net: NetName=SPI2_SCK Pin=R?-1
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Add Net: Net with name "NetR?_2" already exists
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R? 0R

@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=NetJ1_6 Pin=R6-2
+Removed Pin From Net: NetName=NetJ1_5 Pin=R34-2
+Removed Pin From Net: NetName=NetJ1_4 Pin=R35-2
+Removed Pin From Net: NetName=SPI1_CS Pin=R36-1
+Removed Pin From Net: NetName=NetJ1_3 Pin=R36-2
+Added Pin To Net: NetName=NetJ1_3 Pin=R4-2
+Added Pin To Net: NetName=NetJ1_4 Pin=R5-2
+Added Pin To Net: NetName=NetJ1_5 Pin=R6-2
+Added Pin To Net: NetName=NetJ1_6 Pin=R34-2
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW1-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW2-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW3-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW4-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW5-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW6-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW7-0
+Add Pin To Net: Unknown Pin: Pin SW8-0
+Add Pin To Net: Unknown Pin: Pin SW8-0

@@ -1,0 +1,257 @@
+Add Component: Footprint Not Found DO-27
+Add Component: Footprint Not Found DO-35
+Add Component: Footprint Not Found SMA-KE-LI
+Add Component: Footprint Not Found CD31
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found L 0805
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found LED 0805G
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found TO220A
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found TO220B
+Add Component: Footprint Not Found SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Add Component: Footprint Not Found LGA-16_L3.0-W3.0-P0.50-BL
+Add Component: Footprint Not Found LGA-8_L2.5-W2.0-P0.65_AMP6127
+Add Component: Footprint Not Found QFN-24_L4.0-W4.0-P0.50-BL-EP2.6
+Add Component: Footprint Not Found SC-70-6_L2.2-W1.3-P0.65-LS2.1-BL
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Add Component: Footprint Not Found SOP-8_L4.9-W3.9-P1.27-LS6.0-BL
+Added Component: Designator=U9(STM-LQFP64_N)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.st.com/web/en/home.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core"; Value = "ARM Cortex-M4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "D/A Converter"; Value = "2x12-bit"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FLASH Size (Prog) (kB)"; Value = "1024"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "I/Os (High Current)"; Value = "51"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Internal RAM Size (kB)"; Value = "192"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Frequency(F) (Processor speed) (MHz)"; Value = "168"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "64-Pin Low Profile Quad Flat Package, 10 x 10 mm Body, 0.5 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "LQFP64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 4, 06/2013"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packing"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "STM32F405RGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Newark"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 4"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "497-11767-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "2064363"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "73T2329"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 4"; Value = "511-STM32F405RGT6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) max (V)"; Value = "3.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage(Vcc) min (V)"; Value = "1.8"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found OSC 1612-4P
+Add Component: Footprint Not Found OSC 1612-4P
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Pin To Net: Unknown Pin: Pin DZ1-1
+Add Pin To Net: Unknown Pin: Pin DZ1-2
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin J2-1
+Add Pin To Net: Unknown Pin: Pin J2-2
+Add Pin To Net: Unknown Pin: Pin J2-3
+Add Pin To Net: Unknown Pin: Pin J2-4
+Add Pin To Net: Unknown Pin: Pin JP1-1
+Add Pin To Net: Unknown Pin: Pin JP1-2
+Add Pin To Net: Unknown Pin: Pin JP1-3
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Add Pin To Net: Unknown Pin: Pin L2-1
+Add Pin To Net: Unknown Pin: Pin L2-2
+Add Pin To Net: Unknown Pin: Pin L3-1
+Add Pin To Net: Unknown Pin: Pin L3-2
+Add Pin To Net: Unknown Pin: Pin L4-1
+Add Pin To Net: Unknown Pin: Pin L4-2
+Add Pin To Net: Unknown Pin: Pin L5-1
+Add Pin To Net: Unknown Pin: Pin L5-2
+Add Pin To Net: Unknown Pin: Pin L6-1
+Add Pin To Net: Unknown Pin: Pin L6-2
+Add Pin To Net: Unknown Pin: Pin L7-1
+Add Pin To Net: Unknown Pin: Pin L7-2
+Add Pin To Net: Unknown Pin: Pin LED1-1
+Add Pin To Net: Unknown Pin: Pin LED1-2
+Add Pin To Net: Unknown Pin: Pin LED2-1
+Add Pin To Net: Unknown Pin: Pin LED2-2
+Add Pin To Net: Unknown Pin: Pin LED3-1
+Add Pin To Net: Unknown Pin: Pin LED3-2
+Add Pin To Net: Unknown Pin: Pin Q1-1
+Add Pin To Net: Unknown Pin: Pin Q1-2
+Add Pin To Net: Unknown Pin: Pin Q1-3
+Add Pin To Net: Unknown Pin: Pin Q2-1
+Add Pin To Net: Unknown Pin: Pin Q2-2
+Add Pin To Net: Unknown Pin: Pin Q2-3
+Add Pin To Net: Unknown Pin: Pin Q3-1
+Add Pin To Net: Unknown Pin: Pin Q3-2
+Add Pin To Net: Unknown Pin: Pin Q3-3
+Add Pin To Net: Unknown Pin: Pin Q4-1
+Add Pin To Net: Unknown Pin: Pin Q4-2
+Add Pin To Net: Unknown Pin: Pin Q4-3
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U2-1
+Add Pin To Net: Unknown Pin: Pin U2-2
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-4
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-9
+Add Pin To Net: Unknown Pin: Pin U3-10
+Add Pin To Net: Unknown Pin: Pin U3-11
+Add Pin To Net: Unknown Pin: Pin U3-12
+Add Pin To Net: Unknown Pin: Pin U3-13
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-15
+Add Pin To Net: Unknown Pin: Pin U3-16
+Add Pin To Net: Unknown Pin: Pin U4-1
+Add Pin To Net: Unknown Pin: Pin U4-2
+Add Pin To Net: Unknown Pin: Pin U4-3
+Add Pin To Net: Unknown Pin: Pin U4-4
+Add Pin To Net: Unknown Pin: Pin U4-5
+Add Pin To Net: Unknown Pin: Pin U4-6
+Add Pin To Net: Unknown Pin: Pin U4-7
+Add Pin To Net: Unknown Pin: Pin U4-8
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U5-5
+Add Pin To Net: Unknown Pin: Pin U5-7
+Add Pin To Net: Unknown Pin: Pin U5-8
+Add Pin To Net: Unknown Pin: Pin U5-9
+Add Pin To Net: Unknown Pin: Pin U5-10
+Add Pin To Net: Unknown Pin: Pin U5-11
+Add Pin To Net: Unknown Pin: Pin U5-12
+Add Pin To Net: Unknown Pin: Pin U5-16
+Add Pin To Net: Unknown Pin: Pin U5-17
+Add Pin To Net: Unknown Pin: Pin U5-18
+Add Pin To Net: Unknown Pin: Pin U5-19
+Add Pin To Net: Unknown Pin: Pin U5-20
+Add Pin To Net: Unknown Pin: Pin U5-21
+Add Pin To Net: Unknown Pin: Pin U5-22
+Add Pin To Net: Unknown Pin: Pin U5-23
+Add Pin To Net: Unknown Pin: Pin U5-24
+Add Pin To Net: Unknown Pin: Pin U5-25
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U7-1
+Add Pin To Net: Unknown Pin: Pin U7-2
+Add Pin To Net: Unknown Pin: Pin U7-3
+Add Pin To Net: Unknown Pin: Pin U7-4
+Add Pin To Net: Unknown Pin: Pin U7-A1B12
+Add Pin To Net: Unknown Pin: Pin U7-A4B9
+Add Pin To Net: Unknown Pin: Pin U7-A6
+Add Pin To Net: Unknown Pin: Pin U7-A7
+Add Pin To Net: Unknown Pin: Pin U7-B1A12
+Add Pin To Net: Unknown Pin: Pin U7-B4A9
+Add Pin To Net: Unknown Pin: Pin U7-B6
+Add Pin To Net: Unknown Pin: Pin U8-1
+Add Pin To Net: Unknown Pin: Pin U8-2
+Add Pin To Net: Unknown Pin: Pin U8-3
+Add Pin To Net: Unknown Pin: Pin U8-5
+Add Pin To Net: Unknown Pin: Pin U8-6
+Add Pin To Net: Unknown Pin: Pin U8-7
+Add Pin To Net: Unknown Pin: Pin U8-8
+Added Pin To Net: NetName=3V3_MCU Pin=U9-1
+Added Pin To Net: NetName=NetR30_1 Pin=U9-2
+Added Pin To Net: NetName=NetC38_2 Pin=U9-5
+Added Pin To Net: NetName=NetC39_2 Pin=U9-6
+Added Pin To Net: NetName=NetC40_2 Pin=U9-7
+Added Pin To Net: NetName=3V3_MCU Pin=U9-12
+Added Pin To Net: NetName=3V3_MCU Pin=U9-13
+Added Pin To Net: NetName=12V_ADC Pin=U9-14
+Added Pin To Net: NetName=3V3_MCU Pin=U9-18
+Added Pin To Net: NetName=3V3_MCU Pin=U9-19
+Added Pin To Net: NetName=ICM_CS Pin=U9-20
+Added Pin To Net: NetName=SPI1_SCK Pin=U9-21
+Added Pin To Net: NetName=SPI1_MISO Pin=U9-22
+Added Pin To Net: NetName=SPI1_MOSI Pin=U9-23
+Added Pin To Net: NetName=12V_COM_IO Pin=U9-26
+Added Pin To Net: NetName=BMP_CS Pin=U9-30
+Added Pin To Net: NetName=NetC42_2 Pin=U9-31
+Added Pin To Net: NetName=3V3_MCU Pin=U9-32
+Added Pin To Net: NetName=LoRa_CS Pin=U9-33
+Added Pin To Net: NetName=SPI2_SCK Pin=U9-34
+Added Pin To Net: NetName=SPI2_MISO Pin=U9-35
+Added Pin To Net: NetName=SPI2_MOSI Pin=U9-36
+Added Pin To Net: NetName=TIM8_CH1 Pin=U9-37
+Added Pin To Net: NetName=TIM8_CH2 Pin=U9-38
+Added Pin To Net: NetName=TIM8_CH3 Pin=U9-39
+Added Pin To Net: NetName=TIM8_CH4 Pin=U9-40
+Added Pin To Net: NetName=TX Pin=U9-42
+Added Pin To Net: NetName=RX Pin=U9-43
+Added Pin To Net: NetName=NetJ2_2 Pin=U9-46
+Added Pin To Net: NetName=NetC41_2 Pin=U9-47
+Added Pin To Net: NetName=3V3_MCU Pin=U9-48
+Added Pin To Net: NetName=NetJ2_3 Pin=U9-49
+Added Pin To Net: NetName=NetR28_1 Pin=U9-60
+Added Pin To Net: NetName=3V3_MCU Pin=U9-63
+Added Pin To Net: NetName=3V3_MCU Pin=U9-64
+Add Pin To Net: Unknown Pin: Pin X1-1
+Add Pin To Net: Unknown Pin: Pin X1-2
+Add Pin To Net: Unknown Pin: Pin X1-3
+Add Pin To Net: Unknown Pin: Pin X1-4
+Add Pin To Net: Unknown Pin: Pin X2-1
+Add Pin To Net: Unknown Pin: Pin X2-2
+Add Pin To Net: Unknown Pin: Pin X2-3
+Add Pin To Net: Unknown Pin: Pin X2-4
+Add Class Member: Failed to add class member : Component D1 SR540
+Add Class Member: Failed to add class member : Component DZ1 1N5256
+Add Class Member: Failed to add class member : Component J1 CON4
+Add Class Member: Failed to add class member : Component J2 CON4
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Added Member To Class: ClassName=POWER Member=Component J? CON1
+Add Class Member: Failed to add class member : Component JP1 天线接口
+Add Class Member: Failed to add class member : Component L1 6.8uH
+Add Class Member: Failed to add class member : Component L2
+Add Class Member: Failed to add class member : Component L3
+Add Class Member: Failed to add class member : Component L4
+Add Class Member: Failed to add class member : Component L5
+Add Class Member: Failed to add class member : Component L6
+Add Class Member: Failed to add class member : Component L7 10uH
+Add Class Member: Failed to add class member : Component LED1 红色
+Add Class Member: Failed to add class member : Component LED2 白色
+Add Class Member: Failed to add class member : Component LED3 绿色
+Add Class Member: Failed to add class member : Component Q1 AON6407-MS
+Add Class Member: Failed to add class member : Component Q2 2N7002
+Add Class Member: Failed to add class member : Component Q3 AON6407-MS
+Add Class Member: Failed to add class member : Component Q4 AON6407-MS
+Add Class Member: Failed to add class member : Component U1 ME6212C33M5G
+Add Class Member: Failed to add class member : Component U2 ME3116
+Add Class Member: Failed to add class member : Component U3 ICM-20602
+Add Class Member: Failed to add class member : Component U4 BMP280
+Add Class Member: Failed to add class member : Component U5 SX1262IMLTRT
+Add Class Member: Failed to add class member : Component U6 PE4259-63
+Add Class Member: Failed to add class member : Component U7 GT-USB-7010ASV
+Add Class Member: Failed to add class member : Component U8 CH340N_C2977777
+Added Member To Class: ClassName=MCU Member=Component U9 STM32F405RGT6
+Add Class Member: Failed to add class member : Component X1 32M
+Add Class Member: Failed to add class member : Component X2 8M

@@ -1,0 +1,32 @@
+Change Component Footprint: Designator=DR2 Old Footprint=DO-15 New Footprint=SMC
+Change Component Footprint: Designator=DZ1 Old Footprint=DO-35 New Footprint=SOD-323
+Change Component Comment : Designator=DR2 Old Comment=1.5KE18CA New Comment=SMDJ15A
+Change Component Comment : Designator=DZ1 Old Comment=1N5256 New Comment=B5819WS
+Change Component Description : Designator=DR2 Old Description=瞬态电压抑制二极管 New Description=TVS 15V截止 峰值浪涌电流：123A                   C438153
+Change Component Description : Designator=DZ1 Old Description=肖特基二极管 New Description=电压:40V 电流:1A                                C7420331
+Add Component: Footprint Not Found CD31
+Added Component: Designator=LED1(LED 0805R)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=LED2(LED 0805B)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片LED"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+Add Component: Footprint Not Found SOT223_L
+Add Pin To Net: Unknown Pin: Pin L1-1
+Add Pin To Net: Unknown Pin: Pin L1-2
+Added Pin To Net: NetName=NetLED1_1 Pin=LED1-1
+Added Pin To Net: NetName=GND Pin=LED1-2
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=GND Pin=LED2-2
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin V1-1
+Add Pin To Net: Unknown Pin: Pin V1-2
+Add Pin To Net: Unknown Pin: Pin V1-3

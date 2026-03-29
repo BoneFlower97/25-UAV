@@ -1,0 +1,73 @@
+Removed Member From Class: ClassName=INPUT Member=J?
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=SW?(TSW SMD-6*6*5)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片6x6轻触开关"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetSW?_1 Pin=SW?-1
+Added Pin To Net: NetName=NetSW?_2 Pin=SW?-2
+Added Pin To Net: NetName=NetSW?_2 Pin=SW?-3
+Added Pin To Net: NetName=NetSW?_1 Pin=SW?-4
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_1" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Add Net: Net with name "NetSW?_2" already exists
+Change Class Name : Old Net Name=INPUT New Net Name=MCU
+Added Class: Name=INPUT
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 4.7uF
+Added Member To Class: ClassName=MCU Member=Component JP? HDR-1X4
+Added Member To Class: ClassName=MCU Member=Component JP? HDR-1X3
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? NC
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component U? STM32F103C8
+Added Member To Class: ClassName=MCU Member=Component Y? 8M

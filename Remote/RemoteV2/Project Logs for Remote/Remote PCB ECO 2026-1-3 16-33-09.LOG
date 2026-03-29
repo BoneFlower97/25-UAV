@@ -1,0 +1,150 @@
+Removed Pin From Net: NetName=3v3 Pin=J5-2
+Add Component: Footprint Not Found bell
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=C?(C 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "无极性贴片电容"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=J?(MX 1.25-LS-3P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Set Position"; Value = "0.5"; VariantName = "[No Variations]"
+Added Component: Designator=J?(MX 1.25-LS-3P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Set Position"; Value = "0.5"; VariantName = "[No Variations]"
+Added Component: Designator=J?(MX 1.25-LS-3P)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Set Position"; Value = "0.5"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Added Component: Designator=R?(R 0603_L)
+Add component (AddParameter): Name = "BOM名称"; Value = "贴片电阻"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin b1-1
+Add Pin To Net: Unknown Pin: Pin b1-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=3v3 Pin=R?-2
+Added Pin To Net: NetName=12V_ADC Pin=U1-14
+Added Pin To Net: NetName=BEEP Pin=U1-18
+Added Pin To Net: NetName=KEY1 Pin=U1-40
+Added Pin To Net: NetName=KEY2 Pin=U1-41
+Added Pin To Net: NetName=KEY3 Pin=U1-42
+Added Pin To Net: NetName=KEY4 Pin=U1-43
+Added Pin To Net: NetName=IN1 Pin=U1-45
+Added Pin To Net: NetName=IN2 Pin=U1-46
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_2 Pin=R?-1
+Added Net: Name=NetJ5_2
+Added Pin To Net: NetName=NetJ?_2 Pin=J?-2
+Added Pin To Net: NetName=NetJ?_2 Pin=R?-1
+Added Net: Name=NetJ?_2
+Add Net: Net with name "NetJ?_2" already exists
+Add Net: Net with name "NetJ?_2" already exists
+Added Pin To Net: NetName=TW1 Pin=C?-1
+Added Pin To Net: NetName=TW1 Pin=J5-3
+Added Pin To Net: NetName=TW1 Pin=U1-39
+Added Net: Name=TW1
+Added Pin To Net: NetName=TW2 Pin=C?-1
+Added Pin To Net: NetName=TW2 Pin=J5-1
+Added Pin To Net: NetName=TW2 Pin=U1-38
+Added Net: Name=TW2
+Added Pin To Net: NetName=TW3 Pin=C?-1
+Added Pin To Net: NetName=TW3 Pin=J?-3
+Added Pin To Net: NetName=TW3 Pin=U1-33
+Added Net: Name=TW3
+Added Pin To Net: NetName=TW4 Pin=C?-1
+Added Pin To Net: NetName=TW4 Pin=J?-1
+Added Pin To Net: NetName=TW4 Pin=U1-32
+Added Net: Name=TW4
+Added Pin To Net: NetName=TW5 Pin=C?-1
+Added Pin To Net: NetName=TW5 Pin=J?-3
+Added Pin To Net: NetName=TW5 Pin=U1-29
+Added Net: Name=TW5
+Added Pin To Net: NetName=TW6 Pin=C?-1
+Added Pin To Net: NetName=TW6 Pin=J?-1
+Added Pin To Net: NetName=TW6 Pin=U1-26
+Added Net: Name=TW6
+Added Pin To Net: NetName=TW7 Pin=C?-1
+Added Pin To Net: NetName=TW7 Pin=J?-3
+Added Pin To Net: NetName=TW7 Pin=U1-27
+Added Net: Name=TW7
+Added Pin To Net: NetName=TW8 Pin=C?-1
+Added Pin To Net: NetName=TW8 Pin=J?-1
+Added Pin To Net: NetName=TW8 Pin=U1-28
+Added Net: Name=TW8
+Add Class Member: Failed to add class member : Component b1 BELL
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component C? 100nF
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? TJC3-3Y
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component J? CON1
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?
+Added Member To Class: ClassName=INPUT Member=Component R?

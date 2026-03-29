@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=3v3 Pin=J?-1
+Removed Pin From Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=GND Pin=J?-1
+Added Pin To Net: NetName=3v3 Pin=J?-3
+Add Net: Net with name "NetC?_2" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 4.7uF
+Added Member To Class: ClassName=MCU Member=Component C? 22pF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component C? 100nF
+Added Member To Class: ClassName=MCU Member=Component JP? HDR-1X4
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component R? NC
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=MCU Member=Component R? 47R
+Added Member To Class: ClassName=MCU Member=Component R? 10K
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5
+Added Member To Class: ClassName=INPUT Member=Component SW? 6x6x5

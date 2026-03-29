@@ -1,0 +1,19 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C14
+Change Component Designator: OldDesignator=R? NewDesignator=R17
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R47
+Change Component Designator: OldDesignator=R? NewDesignator=R48
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR21_2
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetR17_2 Pin=U4-15
+Added Net: Name=NetR17_2
+Added Pin To Net: NetName=NetR47_2 Pin=R47-2
+Added Pin To Net: NetName=NetR47_2 Pin=U4-13
+Added Net: Name=NetR47_2
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=NetR48_2 Pin=U4-12
+Added Net: Name=NetR48_2
+Added Member To Class: ClassName=COMMUNICATION Member=Component R17 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R21 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R47 0R

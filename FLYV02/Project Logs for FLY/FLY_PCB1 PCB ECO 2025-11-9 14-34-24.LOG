@@ -1,0 +1,96 @@
+Removed Member From Class: ClassName=COMMUNICATION Member=R31
+Removed Member From Class: ClassName=COMMUNICATION Member=R32
+Removed Member From Class: ClassName=MCU Member=U6
+Added Component: Designator=JP1(SMA-KE)
+Add component (AddParameter): Name = "BOM名称"; Value = "SMA-2.4G射频天线接口"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "学习资源"; Value = "www.ooocke.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "版权归属"; Value = "源创客"; VariantName = "[No Variations]"
+Add Component: Footprint Not Found USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+Add Pin To Net: Unknown Pin: Pin J5-1
+Add Pin To Net: Unknown Pin: Pin J5-2
+Add Pin To Net: Unknown Pin: Pin J5-3
+Add Pin To Net: Unknown Pin: Pin J5-4
+Added Pin To Net: NetName=NetJP1_1 Pin=JP1-1
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP1-3
+Added Pin To Net: NetName=GND Pin=JP1-3
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-2
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U5-4
+Add Pin To Net: Unknown Pin: Pin U5-A1B12
+Add Pin To Net: Unknown Pin: Pin U5-A4B9
+Add Pin To Net: Unknown Pin: Pin U5-A6
+Add Pin To Net: Unknown Pin: Pin U5-A7
+Add Pin To Net: Unknown Pin: Pin U5-B1A12
+Add Pin To Net: Unknown Pin: Pin U5-B4A9
+Add Pin To Net: Unknown Pin: Pin U5-B6
+Added Member To Class: ClassName=POWER Member=Component C1 104
+Added Member To Class: ClassName=POWER Member=Component C2 104
+Added Member To Class: ClassName=POWER Member=Component C3 100pF
+Added Member To Class: ClassName=POWER Member=Component C4 22uF
+Added Member To Class: ClassName=POWER Member=Component C5 22uF
+Added Member To Class: ClassName=POWER Member=Component C6 10uF
+Added Member To Class: ClassName=POWER Member=Component C7 10uF
+Added Member To Class: ClassName=COMMUNICATION Member=Component C15 0.1uF
+Added Member To Class: ClassName=MCU Member=Component C21 100nF
+Added Member To Class: ClassName=MCU Member=Component C24 100nF
+Added Member To Class: ClassName=POWER Member=Component DR2 SMDJ15A
+Added Member To Class: ClassName=POWER Member=Component DZ1 B5819WS
+Added Member To Class: ClassName=POWER Member=Component E1 47uF/30V
+Added Member To Class: ClassName=POWER Member=Component E2 47uF/10V
+Added Member To Class: ClassName=POWER Member=Component J1 CON1
+Added Member To Class: ClassName=POWER Member=Component J2 CON1
+Added Member To Class: ClassName=POWER Member=Component J3 CON1
+Added Member To Class: ClassName=POWER Member=Component J4 CON1
+Add Class Member: Failed to add class member : Component J5 CON4
+Added Member To Class: ClassName=COMMUNICATION Member=Component JP1 SMA WIFI 天线接口
+Added Member To Class: ClassName=POWER Member=Component L1 6.8uH
+Added Member To Class: ClassName=POWER Member=Component LED1 红色
+Added Member To Class: ClassName=POWER Member=Component LED2 白色
+Added Member To Class: ClassName=POWER Member=Component Q1 AON6407-MS
+Added Member To Class: ClassName=POWER Member=Component Q2 AON6407-MS
+Added Member To Class: ClassName=POWER Member=Component Q3 2N7002
+Added Member To Class: ClassName=POWER Member=Component Q4 AON6407-MS
+Added Member To Class: ClassName=POWER Member=Component R1 10K
+Added Member To Class: ClassName=POWER Member=Component R2
+Added Member To Class: ClassName=POWER Member=Component R3 0R
+Added Member To Class: ClassName=POWER Member=Component R4 100K
+Added Member To Class: ClassName=POWER Member=Component R5
+Added Member To Class: ClassName=POWER Member=Component R6
+Added Member To Class: ClassName=POWER Member=Component R7
+Added Member To Class: ClassName=POWER Member=Component R8 100K
+Added Member To Class: ClassName=POWER Member=Component R9 1K
+Added Member To Class: ClassName=POWER Member=Component R10 10K
+Added Member To Class: ClassName=POWER Member=Component R11 100K
+Added Member To Class: ClassName=POWER Member=Component R12 5.1k
+Added Member To Class: ClassName=POWER Member=Component R13 1M
+Added Member To Class: ClassName=POWER Member=Component R14 1k
+Added Member To Class: ClassName=COMMUNICATION Member=Component R17 1K
+Added Member To Class: ClassName=COMMUNICATION Member=Component R19 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R20 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R21 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R22 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R23 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R24 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R25 0R
+Added Member To Class: ClassName=COMMUNICATION Member=Component R26 0R
+Added Member To Class: ClassName=MCU Member=Component R27 600Ω 100Mhz
+Added Member To Class: ClassName=MCU Member=Component R28 10K
+Added Member To Class: ClassName=MCU Member=Component R29
+Added Member To Class: ClassName=MCU Member=Component R30
+Added Member To Class: ClassName=MCU Member=Component R33
+Added Member To Class: ClassName=MCU Member=Component R35
+Added Member To Class: ClassName=MCU Member=Component R36 10K
+Added Member To Class: ClassName=MCU Member=Component R37
+Added Member To Class: ClassName=MCU Member=Component R38
+Added Member To Class: ClassName=MCU Member=Component R39
+Added Member To Class: ClassName=MCU Member=Component R40
+Added Member To Class: ClassName=POWER Member=Component U1 ME3116
+Add Class Member: Failed to add class member : Component U5 GT-USB-7010ASV
+Added Member To Class: ClassName=MCU Member=Component U7 STM32F405RGT6
+Added Member To Class: ClassName=POWER Member=Component V1 AMS1117-3V3
+Added Member To Class: ClassName=MCU Member=Component X1 8M
+Added Member To Class: ClassName=POWER Member=Component 电源1 CON2
+Added Member To Class: ClassName=POWER Member=Component 电调1 CON2
